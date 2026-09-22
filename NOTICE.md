@@ -1,0 +1,15 @@
+# Notice and redistribution boundary
+
+The manuscript author is **Peter Chocian**, **Independent researcher**. The canonical manuscript is in `paper/`. Earlier manuscripts and working documents in the audit archive [`bbpcho/primitive-357-proof-audit`](https://github.com/bbpcho/primitive-357-proof-audit) and inside the companion's evidence are historical records.
+
+The author's original program code is licensed under MIT. His original paper and documentation are licensed under CC BY 4.0. [LICENSE.md](LICENSE.md) defines the scope and links to the full texts. These grants do not relicense third-party material or imply its authors' endorsement.
+
+The computational companion released as [`replay-companion-2026-09-22.1`](https://github.com/bbpcho/primitive-357/releases/tag/replay-companion-2026-09-22.1) excludes the full Dahmen–Siksek, Pacetti–Villagra Torcomian and Bruin–Poonen–Stoll papers and the identified unlicensed PVT/Putz source snapshots. Its dependency lock, `inputs/EXTERNAL_INPUTS_LOCK.json`, records pinned public sources, exact sizes, hashes and private destinations; acquisition and exact source reconstruction take place privately, and the tools do not upload acquired files. No downstream redistribution grant is claimed for these excluded copies.
+
+The same lock lists, as author-held inputs, the author's internal working reports withheld from the public distribution on 22 September 2026 (`RELEASE_DELTA_2026-09-22.json`). They are supplied by the author on request for a full replay and are not part of any public grant.
+
+The PVT snapshot remains identified by commit `e88f914c577ab6cf9a45e5cdd82c1993477fb423`. Project changes to Hunter sources are distributed as copy coordinates into pinned upstream files plus the project's inserted lines; the complete upstream or reconstructed sources are not bundled. The PVT mod-7 table is regenerated privately from the authenticated upstream dataset; this reduction does not independently regenerate that dataset. Seven historical native executables that were only hashed by the suite are omitted, with their original identities and the limited authentication changes recorded.
+
+Two licensed exceptions are retained: Piet Hein Casper Putz's *Enumeration of local and global étale algebras applied to generalized Fermat equations* (Vrije Universiteit Amsterdam, 2024, [DOI 10.5463/thesis.832](https://doi.org/10.5463/thesis.832)), under the official CC BY-ND 4.0 notice, and the GNU MPFR 4.2.1 header under LGPL 3 or later. The companion's `THIRD_PARTY_NOTICES.md`, `inputs/RETAINED_LICENSED_MATERIAL.json` and `LICENSES/` record attribution and the full applicable notices and licence texts. Peter Chocian's licences do not cover these works.
+
+The earlier large assets containing the Dahmen–Siksek working paper, and the older downloads containing the BPS paper, were withdrawn on 15 September 2026; their withdrawal records are in the audit archive. Original hashes and release records remain as provenance, not permission to redistribute those payloads.

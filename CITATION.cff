@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "The Primitive Generalized Fermat Equation x^3+y^5=z^7: A computer-assisted proof"
+authors:
+  - family-names: Chocian
+    given-names: Peter
+date-released: 2026-09-22
+version: replay-companion-2026-09-22.1
+repository-code: "https://github.com/bbpcho/primitive-357"
+license: CC-BY-4.0
+keywords:
+  - generalized Fermat equations
+  - rational points
+  - explicit descent
+  - Hilbert modular forms
+  - computer-assisted proofs

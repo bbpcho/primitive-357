@@ -1,0 +1,459 @@
+% Copyright (c) 2026 Peter Chocian. Original manuscript text:
+% CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
+% Third-party material is excluded; see the licence notice in Section 8.
+\section{The complete rank-four descent and its downstream use}
+\label{app:rank-proof}
+
+Let $K=K_7=\Q(s)$, where $s^2=-7$, and let
+$J=\operatorname{Jac}(C_+)$ for the smooth plane quartic of
+Appendix~\ref{app:Cplus}.  Write $D_i=[P_i-P_1]$ and
+\[
+ H_0=\langle D_2,D_3,D_4,D_5\rangle,\qquad
+ H_1=\langle D_2,E,D_4,D_5\rangle.
+\]
+We prove that $J(K)$ has rank four, that $H_0$ has odd index, and that
+$[J(K):H_1]$ is coprime to $400$.  These are the group-theoretic inputs
+to the sieve and logarithmic argument in Theorem~\ref{thm:rational-t}.
+The relation \eqref{eq:Erelation} gives $H_0\subseteq H_1$; the
+$2$-saturation statement concerns $H_0$, and the $5$-saturation statement
+concerns $H_1$.
+
+\subsection{The descent maps and the local completeness criterion}
+
+Let $\Delta$ be the Galois set of the $28$ bitangents of $C_+$, and let
+$L=(\overline K^{\Delta})^{\operatorname{Gal}(\overline K/K)}$
+be its degree-$28$ \'etale algebra of Galois-equivariant functions.  Evaluation of
+the normalized bitangent lines on a degree-zero divisor $z$ gives
+$f(z)\in L^\times$, whenever the divisor avoids their zeroes and poles.
+For $F=K$ or a completion $K_v$, put
+\[
+ \mathcal H(F)=
+ (L\otimes_K F)^\times\big/
+       \bigl(F^\times(L\otimes_K F)^{\times2}\bigr).
+\]
+The evaluation construction induces the fake descent map
+\[
+ f_F:J(F)/2J(F)\longrightarrow\mathcal H(F).
+\]
+Thus a divisor class is in the \emph{fake kernel} precisely when its
+evaluation can be written $f(z)=a\lambda^2$, with $a\in F^\times$
+and $\lambda\in(L\otimes_K F)^\times$.
+
+For clarity, the finite modules in the comparison with true descent are
+as follows.  Let $E_\Delta\subset\F_2^\Delta$ be the subspace of even subsets,
+and let $R_\Delta\subset E_\Delta$ be the span of the $315$ syzygetic tetrads.
+Write $E_\Delta^\vee,R_\Delta^\vee$ for their duals and
+$q:E_\Delta^\vee\to R_\Delta^\vee$ for restriction.  The exact bitangent and
+contact identities identify
+\[
+ \ker q\simeq J[2],\qquad \dim E_\Delta=27,\qquad \dim R_\Delta=21,
+\]
+as Galois modules, by \cite[Corollary~12.5]{BPS}.  The rational even
+theta characteristic and the seven blocks in the exact field tower put
+the actual Galois action inside $\operatorname{AGL}_3(\F_2)$, acting
+transitively on $\Delta$.  Equality with the full affine group is not
+needed.  The rational point $P_1$ supplies the degree-one divisor
+hypotheses for the global and local comparison results of
+\cite[Lemma~10.2 and Appendix~A]{BPS}.
+
+If $M$ is one of these finite Galois modules, $M(F)$ denotes its
+$F$-rational elements.  Define the correction quotient
+\[
+ \mathcal C(F)=R_\Delta^\vee(F)/q\bigl(E_\Delta^\vee(F)\bigr).
+\]
+The tetrad incidence map $\tau_*$ multiplies the four corresponding
+bitangent values.  The normalized contact conics give an evaluation
+$r(z)$ satisfying the exact identity
+\[
+                         r(z)^2=\tau_*(f(z)).
+\]
+Consequently, if $f(z)=a\lambda^2$, the correction of $z$ is represented by
+\begin{equation}\label{eq:rank-kernel-correction}
+             \frac{r(z)}{a^2\tau_*(\lambda)}.
+\end{equation}
+The scalar exponent is two because each tetrad has four entries.
+Formula \eqref{eq:rank-kernel-correction} is the identity of
+\cite[Lemma~A.24(a)]{BPS}.  Its entries lie in $\mu_2$ before any
+local approximation is made.  A nonzero value under a character of
+$\mathcal C(F)$ therefore proves that the class of $z$ is nonzero in
+$\ker f_F$.
+
+\begin{lemma}[Local completeness]\label{lem:rank-local-completeness}
+Let $d_v=\dim_{\F_2}J(K_v)/2J(K_v)$.  Suppose actual local divisor
+classes give $r_v$ independent fake images and $k_v$ independent classes
+in the fake kernel.  If $r_v+k_v=d_v$, these images span the full fake
+image and the fake kernel has dimension $k_v$.
+\end{lemma}
+
+\begin{proof}
+Apply rank--nullity to $f_{K_v}$.  The two exhibited subspaces give
+lower bounds whose sum already equals the dimension of its domain.
+For a finite place of odd residue characteristic,
+$d_v=\dim J[2](K_v)$; for $v\mid2$,
+$d_v=3[K_v:\Q_2]+\dim J[2](K_v)$, by
+\cite[Remark~11.6]{BPS}.  This is the stopping criterion of
+\cite[Lemma~A.24(b)]{BPS}.
+\end{proof}
+
+\subsection{A containing space for the global fake image}
+
+Let $S$ consist of the complex place, both dyadic places, the places above
+$3,5,7$, and the bad place $(29,s-15)$.  The primitive quartic is
+smooth outside $S$, and the bitangent algebra is unramified there.
+The base field $K$ has class number one.  The containing direction of
+\cite[Propositions~7.2--7.3 and Theorem~10.9(a)]{BPS} therefore puts
+every relevant fake Selmer class in the image of $L(S,2)$, the
+squareclasses with even valuation outside the primes above $S$.
+
+The unconditional class-group calculation gives $\operatorname{Cl}(L)[2]=0$.
+The $38$ finite primes of $L$ above $S$ are principal, and the unit calculation
+gives $28$ independent ordinary-unit squareclasses, including $-1$.
+The exact valuation sequence for $S$-unit squareclasses shows that
+these $28$ classes and the $38$ prime generators form a basis of the
+$66$-dimensional space
+\[
+                    V_0=L(S,2)\subset L^\times/L^{\times2}.
+\]
+Thus every fake image of a true $2$-Selmer class has a representative
+in $V_0$.
+For a selected place $v$, impose on $V_0$ the condition that its
+restriction modulo the diagonal $K_v^\times$ belong to
+$\operatorname{im}f_{K_v}$.
+
+The local image dimensions used here are
+\[
+\begin{array}{c|c|c}
+ \text{place}&d_v&\dim\operatorname{im} f_{K_v}\\ \hline
+ \text{four completely split bitangent places}&6&6\\
+ v_{1051}=(1051,s-815)&4&4\\
+ v\mid3&2&2\\
+ v\mid5&3&3\\
+ v\mid7&2&1\\
+ v\mid2,\ w\equiv1\pmod2&4&4\\
+ v\mid2,\ w\equiv0\pmod2&4&3
+\end{array}
+\qquad w=(1+s)/2.
+\]
+At the four good places above $19163,23431,29059,38189$, the bitangent
+algebra splits completely.  Although $1051$ also splits in $K/\Q$,
+at the selected good place $v_{1051}=(1051,s-815)$ the bitangent algebra
+has residue factor degrees $1^8 2^{10}$.  Thus
+$L\otimes_K K_{v_{1051}}\simeq K_{v_{1051}}^8\times E_{1051}^{10}$, where
+$E_{1051}/K_{v_{1051}}$ is the unramified quadratic extension.  Its Frobenius
+action gives $\dim_{\F_2}J[2](K_{v_{1051}})=4$.
+For the first four rows, independent point images attain the local
+two-torsion bound, so Lemma~\ref{lem:rank-local-completeness} applies with
+$k_v=0$.  The $7$-adic and dyadic arguments below justify the remaining
+rows, including their kernel contributions.
+
+Let $V\subset V_0$ be the intersection of these conditions.  The
+restriction of each of the $66$ generators is computed in every factor
+of the actual local bitangent algebra.  Exact linear algebra gives
+\begin{equation}\label{eq:rank-dimensions}
+ 66\longrightarrow23\longrightarrow22\longrightarrow20
+ \longrightarrow19\longrightarrow18\longrightarrow15\longrightarrow12.
+\end{equation}
+The stages are the four completely split bitangent places together,
+$v_{1051}$, the places above
+$3,5,7$, and the dyadic places with $w\equiv1,0$, in that order.
+The other prime conditions and the norm condition in the ancillary
+descent calculation are redundant for this intersection.
+
+The diagonal subspace
+\[
+ D=V\cap\operatorname{im}\bigl(K^\times/K^{\times2}
+                        \longrightarrow L^\times/L^{\times2}\bigr)
+\]
+has dimension seven.  Set $Q=V/D$
+and let $B$ be the fake image of $H_0$.  The coordinate calculation gives
+\begin{equation}\label{eq:rank-containing-quotient}
+ Q=B\oplus\langle c\rangle,\qquad \dim B=4,\qquad \dim Q=5.
+\end{equation}
+Here $c$ denotes the fixed complementary squareclass in the descent
+data; we use the same representative in $L^\times$ throughout the
+comparison below.  The calculation verifies that the diagonal,
+the four point images, and this representative satisfy every local
+condition, have ranks $7,11,12$ successively, and span $V$.
+Thus \eqref{eq:rank-containing-quotient} is an equality of the specified
+spaces.  In particular, the fake image of every true Selmer class lies
+in $Q$.  We do not need every element of $Q$ to be a Selmer class.
+
+\subsection{Completeness at seven}
+
+Let $v\mid7$.  The actual decomposition data give $d_v=2$.
+For the divisor $z_7=P_4-P_1$, exact square tests in all seven factors
+of $L\otimes_K K_v$ give
+\[
+                            f(z_7)=3\lambda^2.
+\]
+This puts its class in the full fake kernel.  To prove it is a nonzero
+class, consider the specified completion $A$ of the degree-$42$ tetrad
+algebra.  It has $(e,f)=(4,1)$ over $K_v$, and the incidence algebra
+over $A$ is a product of two unramified quadratic extensions.
+Evaluation on this tetrad component defines a character of
+$\mathcal C(K_v)$: this is checked for every affine-group candidate
+compatible with the measured decomposition data.  Some of those
+characters vanish, so their factor profiles alone do not prove
+nonvanishing.
+
+In the two quadratic incidence fields, remove the even valuations from
+$f(z_7)/3$ and take square roots of the resulting units.  Their residue
+roots over $\F_{49}$ are simple and hence lift by Hensel's lemma.
+The two normalized norm residues are one; the corresponding normalized
+conic quotient has residue six.  Formula
+\eqref{eq:rank-kernel-correction} therefore gives
+\[
+           \frac{r(z_7)}{3^2\tau_*(\lambda)}=-1
+\]
+on the selected target.  The equality is exact: the contact identity
+puts the quotient in $\mu_2$, and reduction in residue characteristic
+seven distinguishes $1$ from $-1$.  Thus $\ker f_{K_v}$ is nonzero.
+For comparison, the distinct divisor $P_2-P_1$, also with diagonal
+scalar $3$, gives $+1$.  Changing either quadratic square-root sign
+does not change its norm.
+
+There is also a nonzero fake image.  Let $K'_v/K_v$ be the unramified
+quadratic extension.  The local-point calculation produces
+$P\in C_+(K'_v)$ such that the degree-zero divisor
+\[
+                   \operatorname{Norm}_{K'_v/K_v}(P)-2P_1
+\]
+has nonzero fake image.  The coordinate change from its local model to
+the printed quartic is $Z_{\rm original}=-7Z_{\rm local}$.
+A strong Hensel inequality proves existence of the point, and all seven
+line-value squareclasses are unchanged by the correction.  Its norm-line
+vector, modulo the two diagonal classes, spans the one-dimensional
+allowed image used in \eqref{eq:rank-dimensions}.
+We have now exhibited an image of dimension at least one and a kernel
+of dimension at least one in a domain of dimension two.
+Lemma~\ref{lem:rank-local-completeness} proves that both dimensions are
+exactly one.
+
+\paragraph{Precision for the $7$-adic calculation.}
+The target is represented by an integral Eisenstein polynomial of
+degree eight over $\Q_7$.  Strong Hensel bounds and Krasner's lemma
+identify the computed generator with the exact target root; Gauss
+bounds propagate its error through the rational line, incidence and
+conic coefficients, including their denominators.  The two incidence
+factors lift from coprime factors.  A uniformizer change in one factor
+gives its irreducible residual quadratic.  At working precision $100$
+over $\Q_7$, the resulting relative-error bound is at least $254$ in
+$A$, so the residue used above is unchanged.  The computed sign
+separations at working precisions $100$ and $120$ are $255$ and $511$.
+These inequalities justify passage from approximations to the exact
+sign, rather than relying on agreement of two numerical outputs.
+
+\subsection{Completeness at the dyadic places}
+
+At both dyadic places $d_v=4$.  At the place with $w\equiv1\pmod2$,
+the known point differences together with the Hensel lift of
+$[2:46:1]$ give four independent fake images.  This already attains
+$d_v$, so the image is complete and its fake kernel is zero.
+
+Now work at the place with $w\equiv0\pmod2$, identified with $\Q_2$.
+The four known differences have fake-image rank two.  We describe the
+additional points and kernel divisors explicitly.  In the chart
+\[
+                       [X:Y:Z]=[13+32e:1:16d],
+\]
+let $C_0=[13:1:16d_0]$, where $d_0\equiv0\pmod2$ is the Hensel
+root of the quartic equation.  The normalized equation reduces to
+$d(d+1)^3$, so this root is unique in its residue disk.  Its fake image
+is independent of the known images, giving rank at least three.
+
+In the chart $[13+32e:1:16(1+2g)]$, the normalized reduction is
+\[
+       e^4+e^3+g^2e^2+(g^2+g)e+g^3+g^2+g=0.
+\]
+Its $g$-derivative at $(0,0)$ and its $e$-derivative at $(1,0)$ are
+units.  Hence the following points are well defined by their coordinates
+and congruences:
+\[
+ \begin{aligned}
+ P'_2&=[77:1:16(1+2g_2)],&g_2&\equiv0\pmod2,\\
+ P'_5&=[13+32e_5:1:80],&e_5&\equiv1\pmod2.
+ \end{aligned}
+\]
+Here $g_2$ is obtained by fixing $e=2$, and $e_5$ by fixing $g=2$.
+Define the degree-zero divisors
+\[
+ z_2=P'_2+P_2+C_0-3P_1,\qquad
+ z_5=P'_5+P_2-2P_1.
+\]
+Exact square tests in all three factors of the local bitangent algebra
+give
+\[
+                    f(z_2)=-10\lambda_2^2,\qquad
+                    f(z_5)=2\lambda_5^2.
+\]
+Thus these are actual fake-kernel divisors.  The line-value error bounds
+put the ratio of each true value to its tested approximation in
+$1+\mathfrak p^{2\ord_{\mathfrak p}(2)+1}$, whose elements are squares
+by Hensel's lemma.
+
+The degree-$42$ target splits here into factors of degrees
+$3,3,6,6,24$.  Evaluation on the two sextic factors gives two independent
+characters of the two-dimensional quotient $\mathcal C(K_v)$.
+Both characters annihilate $q(E_\Delta^\vee(K_v))$ for all $28$ compatible
+affine-group candidates.  With $-1$ represented by the bit $1$, both
+$z_2$ and $z_5$ have correction values $(0,1)$ under these characters.
+In particular the fake kernel is nonzero.  The rank-three image and
+this kernel class fill the four-dimensional local Kummer group;
+Lemma~\ref{lem:rank-local-completeness} proves that the full fake image
+has dimension three.  This proves the last two cuts in
+\eqref{eq:rank-dimensions}.
+
+\paragraph{Precision for the dyadic correction.}
+Integral local bases, ramification and residue polynomials identify the
+two sextic fields and their quadratic incidence factors.  Strong
+Hensel and Krasner bounds apply to the original target polynomial,
+and the factor-lifting error is propagated through the evaluations.
+In the strengthened calculation for $z_5$, the unit square-root
+residual and derivative valuations are $(40,4)$ in a ramified quadratic
+factor and $(20,2)$ in an unramified one.  The corresponding exact-root
+error bounds are $36$ and $18$; after taking norms the relative error
+in the target is at least $18$.  The final sign-separation pairs are
+$(19,2)$ and $(2,18)$; in each sextic target field $A$,
+$\ord_A(2)=2$.  The exact contact identity
+therefore distinguishes the signs despite residue characteristic two.
+Only a valid square-root witness is required: changing its sign has
+no effect on a quadratic norm, so uniqueness of the finite root search
+is unnecessary.
+
+\subsection{Excluding the complementary class}
+
+We next compare the containing space $Q$ with the true $2$-Selmer group.
+In fact, $J(K)[2]=0$ follows already from transitivity on $\Delta$.
+Identify $E_\Delta^\vee$ with
+$\F_2^\Delta/\langle\mathbf1\rangle$ using the standard dot product.
+The bitangent realization gives
+$J[2]\simeq R_\Delta^\perp/\langle\mathbf1\rangle$.
+The weight enumerator of $R_\Delta^\perp$ is
+\[
+                         1+63T^{12}+63T^{16}+T^{28};
+\]
+it is obtained by taking the orthogonal complement of the $315$ tetrad
+incidence vectors, which have rank $21$, and enumerating its $128$ vectors.
+Each nonzero quotient class therefore has two complementary
+representatives of weights $12$ and $16$.  If such a class were Galois
+invariant, its unique weight-$12$ representative would have
+Galois-invariant support, a nonempty proper subset of the transitive set
+$\Delta$.  This is impossible.  Separately, the finite Galois-module
+calculation gives $\dim\mathcal C(K)=1$ for every transitive affine
+subgroup compatible with the actual bitangent action.
+
+The fixed representative $c$ in \eqref{eq:rank-containing-quotient}
+has two coherent global lifts under the BPS comparison map on
+$H^1(K,J[2])$.  Here coherence includes the relations required by
+\cite[Lemma~A.13(b)]{BPS}, rather than only the existence of square roots
+of $\tau_*(c)$.  More explicitly, the degree-$42$ and degree-$56$
+target orbits give $98$ incidence vectors spanning $R_\Delta$.  Exact target
+norm roots satisfy the $77$ independent relations among those vectors.
+Their relation quotients lie in $\mu_2$, so their exact signs are
+determined by reduction at the odd split prime $733177$, where all
+denominators are units.  This defines the lift on all $315$ tetrads
+and respects the Galois action.  The two compatible whole-orbit sign
+choices, denoted $00$ and $11$, differ by the nonzero element
+$\rho\in\mathcal C(K)$.  Since this quotient has dimension one,
+these are all the lifts.
+
+At $v\mid5$ the fake map is injective: the three independent images
+already attain $d_v=3$.  Hence the local correction quotient used to
+test whether a cohomology class is Kummer is $\mathcal C(K_v)$ itself;
+there is no local fake-kernel contribution to quotient out.  Its
+dimension is two.  For the actual divisor $z=P_2+P_4-2P_1$ and
+$a=(s-1)/2$, the same global representative satisfies
+\[
+                             f(z)=ca\lambda^2
+\]
+in all eleven components of $L\otimes_K K_v$.
+If $u^2=\tau_*(c)$ is a coherent target root, the local obstruction
+is represented by
+\[
+                         \frac{u\,a^2\tau_*(\lambda)}{r(z)}.
+\]
+Its square is one by the exact contact and norm identities.  The
+physical target characters give
+\[
+ \omega_{00}=(1,0),\qquad \omega_{11}=(0,1),\qquad
+                         \kappa_5(\rho)=(1,1).
+\]
+Here $\kappa_5$ is localization on the correction quotient; its value
+is the difference of the two obstructions, not either obstruction
+itself.  The functional $(u,v)\mapsto u+v$ vanishes on that difference
+and is nonzero on both obstructions.  Thus neither lift of $c$ is
+locally Kummer at $5$.
+
+By \cite[Theorem~10.14 and Lemma~A.26]{BPS}, the kernel of the
+true-to-fake Selmer comparison is the kernel of localization from
+$\mathcal C(K)$ to the local correction quotients.  Its restriction
+at $5$ is already injective, since $\kappa_5(\rho)\ne0$.
+The Selmer comparison kernel is consequently zero.
+
+\paragraph{Arithmetic identification of the $5$-adic obstructions.}
+The exact coordinate representative of $c$, the target norm roots,
+and the local source equation above are compared directly.  In the
+selected quadratic incidence fields, taking norms of $\lambda^2$
+and prescribing the residue of the norm of $\lambda$ determines the
+required square root.  The three physical character values are
+$(-1,+1,-1)$; the first and third characters agree, and the first two
+are independent.  Reversing the coherent root gives $(+1,-1,+1)$.
+The relative root-error bounds are at least $21$, so these residues
+determine the exact $\mu_2$ values.  This is the arithmetic underlying
+the two displayed obstruction vectors.
+
+\subsection{Rank, subgroup indices and the logarithmic annihilator}
+
+\begin{proposition}
+The true $2$-Selmer group and the Mordell--Weil group satisfy
+\[
+ \dim_{\F_2}\operatorname{Sel}^{2}(J/K)=\rank J(K)=4,
+                         \qquad \Sha(J/K)[2]=0.
+\]
+\end{proposition}
+
+\begin{proof}
+Every true Selmer class has fake image in $Q=B\oplus\langle c\rangle$.
+If its image were $c+b$, choose a point of $H_0$ with fake image $b$.
+Subtracting its global Kummer class would give an everywhere locally
+Kummer lift of $c$, contradicting the obstruction at $5$.
+Thus the true Selmer image lies in $B$.  The comparison is injective,
+so the Selmer dimension is at most four.  The independent point lower
+bound is four.  Since $J(K)[2]=0$, the Kummer exact sequence
+\[
+ 0\longrightarrow J(K)/2J(K)
+ \longrightarrow\operatorname{Sel}^{2}(J/K)
+ \longrightarrow\Sha(J/K)[2]\longrightarrow0
+\]
+proves all three assertions.
+\end{proof}
+
+The verified $2$-saturation, equivalently the independence of the four
+generators modulo $2$ together with this rank calculation, gives
+$[J(K):H_0]$ odd.  The relation \eqref{eq:Erelation} gives
+$H_0\subseteq H_1$, so $H_1$ also has odd index.  Its separately
+verified $5$-saturation then gives
+\[
+                         \gcd([J(K):H_1],400)=1.
+\]
+Multiplication by $400$ is therefore an automorphism of the finite
+group $J(K)/H_1$, which proves that
+$H_1\to J(K)/400J(K)$ is surjective.  This is precisely the coefficient
+coverage required by the finite sieve; saturation at other primes
+is not used.
+
+Finally, let a characteristic-zero logarithmic functional vanish on
+$H_0$.  Every point of $J(K)$ has a nonzero integer multiple in $H_0$,
+and the target of the functional has no integer torsion.  The
+functional therefore vanishes on all of $J(K)$.  This proves that the
+logarithmic annihilator used in Theorem~\ref{thm:rational-t} is global.
+
+\paragraph{Location of the arithmetic evidence.}
+The ancillary component guide \path{PROGRAMS_AND_CERTIFICATES.md}
+identifies the ordered $66$ representatives, all restriction columns,
+the diagonal and point coordinates, the fixed representative $c$,
+and the exact root and local-divisor witnesses used here.  It also
+locates the full local-field and precision calculations behind the
+inequalities above.  These data establish the computational premises
+of the argument; checksums and saved status messages serve only to
+identify and reproduce them.

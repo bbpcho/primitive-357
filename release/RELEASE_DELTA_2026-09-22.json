@@ -1,0 +1,2126 @@
+{
+  "schema": "primitive357_release_delta_v1",
+  "date": "2026-09-22",
+  "from_release_tag": "replay-companion-2026-09-15.2",
+  "to_release_tag": "replay-companion-2026-09-22.1",
+  "statement": "The only change from the previous distribution is that the listed author working reports are no longer public objects; they are author-held inputs in inputs/EXTERNAL_INPUTS_LOCK.json with unchanged logical paths, byte counts and SHA-256 digests. RELEASE_MANIFEST.json, and therefore the materialized replay tree and the recorded replay, are unchanged.",
+  "author_held_documents": [
+    {
+      "id": "author-section7-terminal-engine-reconstruction-v1-01a11905",
+      "kind": "author",
+      "sha256": "01a11905135ee04ff53f4d889b3ee8b8249340cacd1665a01127412f36811485",
+      "bytes": 228711,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-root-cocycle-v4-productio-03107ac6",
+      "kind": "author",
+      "sha256": "03107ac63435d490840bf8ff6aa5709f61a73864b82ad74e192864b20452a373",
+      "bytes": 9681,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V4_PRODUCTION_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-local-algebra-covering-v6-038abab5",
+      "kind": "author",
+      "sha256": "038abab5c8ff027f9aebf8afe997e781d91b8656a3bb950ab0d3d56488bd9f5e",
+      "bytes": 8915,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/summaries/NUMBERS_WITHOUT_TIME_LOCAL_ALGEBRA_COVERING_V6.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-complete-primitive-357-proof-report-v3-06d24d5a",
+      "kind": "author",
+      "sha256": "06d24d5a8ce0a7326697eeefa5253292e6a9783685f9b15aa3c0a7cd080299aa",
+      "bytes": 16728,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/summaries/COMPLETE_PRIMITIVE_357_PROOF_REPORT_V3.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v14-0aa4e559",
+      "kind": "author",
+      "sha256": "0aa4e55949fee1d408f86832f9a7adf63f7fd99b0b680ad9acce048be752c636",
+      "bytes": 10902,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-s2-exceptional-s7-projector-v1-0cfec097",
+      "kind": "author",
+      "sha256": "0cfec09728a4b49e548cebba62aee6c4760dbc4b401015d7630d600c0f9e4825",
+      "bytes": 199252,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/summaries/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-beal-357-progress-0d47d9f2",
+      "kind": "author",
+      "sha256": "0d47d9f25e3d482c63c1ecb9d06a29daf126ec5a3e94ed924efee53b49b52635",
+      "bytes": 67765,
+      "logical_destinations": [
+        "evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/beal_357_progress.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-corrected-quotient-coordinates-stric-0f762496",
+      "kind": "author",
+      "sha256": "0f76249625ce1551c263ce024e37bac85744c578fd96406125e90e14adc29737",
+      "bytes": 7984,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates_strict_adversarial_audit/summaries/INDEPENDENT_CORRECTED_QUOTIENT_COORDINATES_STRICT_ADVERSARIAL_AUDIT_V1.md",
+        "evidence/v3/repository/results/2026-08-26_corrected_quotient_coordinates_strict_adversarial_audit/summaries/INDEPENDENT_CORRECTED_QUOTIENT_COORDINATES_STRICT_ADVERSARIAL_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-19-field-joint-projector-cover-v1-1197ed24",
+      "kind": "author",
+      "sha256": "1197ed2484fc4e8439c446b85a35aa7aa7f28f55b88ef698d1814d0386472ddc",
+      "bytes": 7966,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/summaries/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-local-algebra-covering-v6-12e08b75",
+      "kind": "author",
+      "sha256": "12e08b756b6772480184771d1382f001b99cc5b7f7ac45ceb8c9320f0a58ed18",
+      "bytes": 199417,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/summaries/NUMBERS_WITHOUT_TIME_LOCAL_ALGEBRA_COVERING_V6.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-cocycle-v4-resource-cap-aud-13241e00",
+      "kind": "author",
+      "sha256": "13241e00c38290dc263fc5ad95378728498ac0a6c6ab23ec4398452eb002bd87",
+      "bytes": 6253,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_RESOURCE_CAP_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-cocycle-v4-resume1-postrun--139b3d32",
+      "kind": "author",
+      "sha256": "139b3d32d4ff73eef171e5001b4922d336fd7fba9c746f655ee015f841037e44",
+      "bytes": 15395,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_RESUME1_POSTRUN_THEOREM_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-seven-field-single-q29-spectral-compression-v1-13df1020",
+      "kind": "author",
+      "sha256": "13df1020492dbfec6ccff4da6ab432340073f1a8c5edcf07f24c665fd0d87e95",
+      "bytes": 9345,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/summaries/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-finite-state-projector-inva-159d1b27",
+      "kind": "author",
+      "sha256": "159d1b27317b039408ea1993a9ba40465177362d29372babd46d1cbaac94fea3",
+      "bytes": 12099,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/summaries/NUMBERS_WITHOUT_TIME_FINITE_STATE_PROJECTOR_INVARIANT_V4.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-interface-stress-audit-v1-169e3b21",
+      "kind": "author",
+      "sha256": "169e3b219e60ad75ba20f93d9312a3ba8582ef21406ccad89c5aadf2c5e14924",
+      "bytes": 4144,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_static_projector_interface_stress_audit_v1/summaries/STATIC_PROJECTOR_INTERFACE_STRESS_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-cm-boundary-case-projector-gap-v1-17313dd7",
+      "kind": "author",
+      "sha256": "17313dd709de2b1a2efdb6425ddfde00d6c7f81deb7a38f9005e792537f20178",
+      "bytes": 5120,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/summaries/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quadratic-factor-router-2-5-v1-17d5fc96",
+      "kind": "author",
+      "sha256": "17d5fc96b24fa712747d42389347fb80f92a8fd2dfd90f06d2e66bf98ae9fc61",
+      "bytes": 14927,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/summaries/QUADRATIC_FACTOR_ROUTER_2_5_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v10-18639a3d",
+      "kind": "author",
+      "sha256": "18639a3d107d26f304108ffa0a300960b133473b4c02be0d044173930498ad33",
+      "bytes": 4462,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-relative-s4-cl2-reduction-and-acceptance-contrac-192d7382",
+      "kind": "author",
+      "sha256": "192d73826cb798574d471773b18c78afe199a8415b74e46bad794b1f3ecfd601",
+      "bytes": 12710,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_l2_relative_s4_class_gate/summaries/RELATIVE_S4_CL2_REDUCTION_AND_ACCEPTANCE_CONTRACT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-v3-review-bundle-1b9ddc48",
+      "kind": "author",
+      "sha256": "1b9ddc484af818c43c8f0fbbfe91cdb861749447f294d026120d1d1475733144",
+      "bytes": 3432499,
+      "logical_destinations": [
+        "audit/history/v3_review_bundle.zip"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-beal-357-progress-1d398c5d",
+      "kind": "author",
+      "sha256": "1d398c5d1a9e31ad1a44e9097aa0b2fe84c2b68aa3b2569aa30021b204553c18",
+      "bytes": 405346,
+      "logical_destinations": [
+        "evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/beal_357_progress.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-deep-projector-report-v1-1de98238",
+      "kind": "author",
+      "sha256": "1de9823819bc0075ebcf2d8169f9853b37a45261afad3fb44e38af2167521193",
+      "bytes": 281867,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1/summaries/RATIONAL_FACTOR_DEEP_PROJECTOR_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reducible-mod7-q41-exceptional-interference-v1-1ea943fc",
+      "kind": "author",
+      "sha256": "1ea943fc7a355411ce1720657d8e63faab49366278138d8d7dbe53964231687d",
+      "bytes": 4956,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/summaries/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-pvt-putz-interface-audit-report-v2-207847e0",
+      "kind": "author",
+      "sha256": "207847e0b72842bdf652998bf7a6ad9dc95bddb31e226d1dc4c87c522f805cd5",
+      "bytes": 203251,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/summaries/PVT_PUTZ_INTERFACE_AUDIT_REPORT_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-exceptional-splitting-cm-adversarial-crossch-21811d02",
+      "kind": "author",
+      "sha256": "21811d020ee51a7fb39c6664bb2ceeee9f6e0775665f9dcdddb82d3a3ae0925e",
+      "bytes": 2515,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-root-cocycle-v1-productio-232848da",
+      "kind": "author",
+      "sha256": "232848daa8923a30451fe67d2b9779141882aead40c0f7cf9dc63934aeef78b6",
+      "bytes": 4964,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V1_PRODUCTION_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v8-246931ab",
+      "kind": "author",
+      "sha256": "246931aba6a5a0022738056750cf5d15a9ba52b98b987cf192b0c60021ba216c",
+      "bytes": 14390,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-mordell-weil-basis-lemma-7-3-report-v1-247a0bf8",
+      "kind": "author",
+      "sha256": "247a0bf830988e6bfcbea143a6f93374d350225f6a673ec201dd7babadd7408b",
+      "bytes": 6135,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v13-25e45c1d",
+      "kind": "author",
+      "sha256": "25e45c1ddc9bbfd547cf151eeecffaa088992d104404d6a1795a203a47b9a536",
+      "bytes": 8679,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-t-odd-downstream-implication-replay-v1-2615f955",
+      "kind": "author",
+      "sha256": "2615f955d88872a1ce2f2ee95363497c8ae0370302a33bb7933ca9f8144c778c",
+      "bytes": 2301,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_t_odd_odlyzko_downstream_implication_replay_v1/summaries/T_ODD_DOWNSTREAM_IMPLICATION_REPLAY_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v10-27810d93",
+      "kind": "author",
+      "sha256": "27810d93258f2c376427ca61d030e9f17c36f47854be251150f4eadeb7290984",
+      "bytes": 235706,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-root-cocycle-v3-productio-28bd5d43",
+      "kind": "author",
+      "sha256": "28bd5d43af1b7fa594d2ddd14a657ea038ac7cafb584a0aa10519fd62dfb7886",
+      "bytes": 9044,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V3_PRODUCTION_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-theorem350-local-filter-independent-reconst-2ae8b060",
+      "kind": "author",
+      "sha256": "2ae8b0605bc0f7458659eaa7629bb0c4261f5c9d7e1e9cceb99040c1872556f0",
+      "bytes": 183493,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/summaries/PUTZ_THEOREM350_LOCAL_FILTER_INDEPENDENT_RECONSTRUCTION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-packet-exceptional-interference-q17-v1-2c28db30",
+      "kind": "author",
+      "sha256": "2c28db30030b7019671bbd07903d9c4405cb178706e379cee02ad10ac3f3cea4",
+      "bytes": 7419,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/summaries/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reframer-p7-orbit42-56-coherent-cocycle-v2-stati-2caf9dd7",
+      "kind": "author",
+      "sha256": "2caf9dd7c8767eb3d119bb4e6685bea1304a3f6d1c4ace95b74b6a612241af5f",
+      "bytes": 4049,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/REFRAMER_P7_ORBIT42_56_COHERENT_COCYCLE_V2_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-targeted-hunter-spectral-bo-2dd87a30",
+      "kind": "author",
+      "sha256": "2dd87a3094424f09e2271ceedf023de530699d4f85e5f71ac3c48ad4026b2672",
+      "bytes": 175690,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/summaries/NUMBERS_WITHOUT_TIME_TARGETED_HUNTER_SPECTRAL_BOUND_V7.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-irreducible-degree7-sector-closure-report-v1-2e2038cd",
+      "kind": "author",
+      "sha256": "2e2038cdff77dd3f9206a56772414c1f0b9c7103124d73e91700deab57a2c1f9",
+      "bytes": 10709,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-t-projector-stress-audit-v1-2f2a3561",
+      "kind": "author",
+      "sha256": "2f2a3561797adc841e0f158da816164ef56d3554716721ac60f51022b7e81566",
+      "bytes": 7900,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_t_projector_stress_audit_v1/summaries/RATIONAL_T_PROJECTOR_STRESS_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v7-2f915ea9",
+      "kind": "author",
+      "sha256": "2f915ea9334f5332d718caec3cfd757fe203805b0f71ee0ba77631ca1f0f432a",
+      "bytes": 245469,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-irreducible-degree7-sector-closure-report-v1-301b3d04",
+      "kind": "author",
+      "sha256": "301b3d04b7b4a87484fb682ac2c0c2028d30ebe307a2eebc0c92cc08fa553970",
+      "bytes": 203200,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p2-place2-augmented-local-stopping-theorem-3268de83",
+      "kind": "author",
+      "sha256": "3268de83b18fc6cbddd9988c053bf6443c2eb9f95375b4cba6d5ceacef5cd769",
+      "bytes": 7166,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE2_AUGMENTED_LOCAL_STOPPING_THEOREM.md",
+        "evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE2_AUGMENTED_LOCAL_STOPPING_THEOREM.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p109-km-c25-independent-replay-v1-337770d3",
+      "kind": "author",
+      "sha256": "337770d3b4d5975614c91d6d1e850c350e6b07df5dba6797c145508c100fe5e5",
+      "bytes": 3585,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_p109_km_c25_independent_replay_v1/summaries/P109_KM_C25_INDEPENDENT_REPLAY_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reducible-mod7-static-state-projector-v1-34472fbf",
+      "kind": "author",
+      "sha256": "34472fbf731b57e85f51aa760becd530b48f2be57e3626ff792e5d062eeec319",
+      "bytes": 187329,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_reducible_mod7_static_state_projector_v1/summaries/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p2-place1-direct-fake-rank4-v1-launcher-audit-38a450aa",
+      "kind": "author",
+      "sha256": "38a450aafa383976a23ad281cd7f9887e6275def6c724bed24e97957cb1e8439",
+      "bytes": 1201,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_V1_LAUNCHER_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p5-literal-c-a26-conditional-rejection-theorem-v-3cc4b7ba",
+      "kind": "author",
+      "sha256": "3cc4b7ba304cd010fc3565677f2881a10ab9276cfc3bd93c3a26cdc205bf7d82",
+      "bytes": 2745,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_residual_bits/summaries/P5_LITERAL_C_A26_CONDITIONAL_REJECTION_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-hnf22-full-local-fake-image-diagonal-theorem-435932ca",
+      "kind": "author",
+      "sha256": "435932ca3675a985225d17a4da1c22d51bc7d29c2be3971f9e2feed0a29fbd4f",
+      "bytes": 5862,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_FULL_LOCAL_FAKE_IMAGE_DIAGONAL_THEOREM.md",
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_FULL_LOCAL_FAKE_IMAGE_DIAGONAL_THEOREM.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-signed-ds-branch-local-pattern-audit-v1-435e63e3",
+      "kind": "author",
+      "sha256": "435e63e3eb6b4c80f91b0e25d6d9d366093188388aceef77c2eb047528157ff0",
+      "bytes": 120168,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/summaries/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quantum-projector-method-and-rational-factor-mw--4755c050",
+      "kind": "author",
+      "sha256": "4755c0506db302e4b6474c9a8b04315f893658e66e3b1aee2d13a45457f26d48",
+      "bytes": 48778,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1/summaries/QUANTUM_PROJECTOR_METHOD_AND_RATIONAL_FACTOR_MW_BASIS_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-orbit42-56-coherent-cocycle-v4-static-au-481b5635",
+      "kind": "author",
+      "sha256": "481b5635489f22e38b3749502a1a2c2017529dfa6226073e7dcfca44dab267f5",
+      "bytes": 14031,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V4_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p109-corrected-c25-discriminator-v1-4d4e3d9b",
+      "kind": "author",
+      "sha256": "4d4e3d9b128260c7ca8a51e80437b4f318eb22cb61c3dcd30b75e634e3e75345",
+      "bytes": 2262,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-30_p109_corrected_c25_discriminator_v1/summaries/P109_CORRECTED_C25_DISCRIMINATOR_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v1-4d70997b",
+      "kind": "author",
+      "sha256": "4d70997b5368c6a400c897f9303529c5c07e26804eab2a59b725594fbbf0a1d9",
+      "bytes": 19619,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-hunter-corrected-enumeration-v1-4e083a8c",
+      "kind": "author",
+      "sha256": "4e083a8c38dc714b372bec7fe7f89281131b8d69c9e4a80b8301bb798e007c9d",
+      "bytes": 173031,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/summaries/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-theorem350-local-filter-independent-reconst-4fd57794",
+      "kind": "author",
+      "sha256": "4fd57794d9204f9767a60b383c013a01d5c94ca0ef48e8f503d902e30c50f2f7",
+      "bytes": 7651,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/summaries/PUTZ_THEOREM350_LOCAL_FILTER_INDEPENDENT_RECONSTRUCTION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-mixed-rational-t-signature-357-closure-v1-5056fa79",
+      "kind": "author",
+      "sha256": "5056fa7901a7091ed292fc45963b18162420e3b321c1445f6ade0bfc872aa85f",
+      "bytes": 219903,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/summaries/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p2-place1-direct-fake-rank4-v1-static-audit-50f32aa2",
+      "kind": "author",
+      "sha256": "50f32aa22e0e81af049ee6e24f858284e01059ea8bf4eadca85245c0373bf3ec",
+      "bytes": 4275,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_V1_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-local-lemma-6-8-report-v1-5117c9e9",
+      "kind": "author",
+      "sha256": "5117c9e9b5ae7c850dd4e94b851ae5ced30cdbf9178706bc359f72e90aa56f04",
+      "bytes": 292363,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/summaries/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-literal-c-p7-partition-gauge-strict--523d7762",
+      "kind": "author",
+      "sha256": "523d77625b68d7ecf6b0e5bbb020d75af4ed2195fcff3853d01b7c176d2572bb",
+      "bytes": 10742,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_literal_c_a26_p7_partition_gauge_strict_adversarial_audit/summaries/INDEPENDENT_LITERAL_C_P7_PARTITION_GAUGE_STRICT_ADVERSARIAL_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-orbit42-56-coherent-cocycle-v3-static-au-546a26e2",
+      "kind": "author",
+      "sha256": "546a26e22747313fbf15335ad1910bb5771d2dc8f422c34225cd461b8de599f1",
+      "bytes": 8685,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V3_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p23-ros-rank4-checkpoint-progress-report-v1-55ce4cf7",
+      "kind": "author",
+      "sha256": "55ce4cf7ea43749bb106461fd5e8fd3c1a950f9628cbc076a85886046465ed49",
+      "bytes": 232509,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-unconditional-true-2-selmer-and-rank4-theorem-v1-55d4bde6",
+      "kind": "author",
+      "sha256": "55d4bde62521e23291ca7fc5aa66e54e8af950c7566a999b9cdb50bdd48f9c75",
+      "bytes": 5716,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-07_five_place_source_preimage_direct_verification_v1/summaries/UNCONDITIONAL_TRUE_2_SELMER_AND_RANK4_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-cplus-t-parameter-table-56cc1a1d",
+      "kind": "author",
+      "sha256": "56cc1a1dd07d9da4880cc27158cfc48af3d26b1ecbad52daf17fac0742806ad2",
+      "bytes": 13506,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-11_primitive_357_fresh_paper/summaries/CPLUS_T_PARAMETER_TABLE.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v8-57cf5700",
+      "kind": "author",
+      "sha256": "57cf5700d26384fc94616f58c8506a5530e47b3e6dc44aa0096b186bd868987f",
+      "bytes": 229086,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-cocycle-v4-resume1-postru-58cd1912",
+      "kind": "author",
+      "sha256": "58cd191208b7d7d650f048114023dea0bfea0ea4dc0ac3ea11a9b3c7d67f1e99",
+      "bytes": 6127,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_COCYCLE_V4_RESUME1_POSTRUN_ABSOLUTE_RUNTIME_EXACT_DECISION_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-formal-group-lemma-7-5-model-intrinsic--59d9748c",
+      "kind": "author",
+      "sha256": "59d9748c5b98aca313af9ad82c0b9497931f3495a3895ae914eda6ddb3a470b6",
+      "bytes": 212857,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-literal-c-bps-a26-true-lift-gate-v1-5c4038f7",
+      "kind": "author",
+      "sha256": "5c4038f73b999863322f80ccd1125800faf54b8508670d8f420fe88d8e65a31f",
+      "bytes": 21798,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1.md",
+        "evidence/v3/repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p23-ros-rank4-checkpoint-progress-report-v1-5d1a8255",
+      "kind": "author",
+      "sha256": "5d1a82558992abec77850f40d326a22fa18ddfcfd0a19329f32ebb2154c98507",
+      "bytes": 14938,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-06_p23_ros_rank4_checkpoint_v1/summaries/P23_ROS_RANK4_CHECKPOINT_PROGRESS_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reducible-mod7-q41-exceptional-interference-v1-5d523aff",
+      "kind": "author",
+      "sha256": "5d523aff1802c8aedf92981fdb38e9eaa215162ca83bd65f15ba74cd379d306f",
+      "bytes": 150911,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/summaries/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p2-place1-direct-fake-rank4-local-stopping-theor-61b5ac06",
+      "kind": "author",
+      "sha256": "61b5ac063ff1a538bec7a409671eddc7fa9cddb5c1c72906bbbf4415817ddc06",
+      "bytes": 7503,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_LOCAL_STOPPING_THEOREM.md",
+        "evidence/rank/repository/results/2026-08-25_dyadic_stopping/summaries/P2_PLACE1_DIRECT_FAKE_RANK4_LOCAL_STOPPING_THEOREM.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-coherent-cocycle-v3-acceptance-checklist-62f93714",
+      "kind": "author",
+      "sha256": "62f93714b640ff1580cac2dda945316b93b908539d70140b66ae99b171af36fa",
+      "bytes": 3428,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_COHERENT_COCYCLE_V3_ACCEPTANCE_CHECKLIST_ERRATUM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-degree7-f42-projector-bridge-audit-v1-646c7549",
+      "kind": "author",
+      "sha256": "646c7549bade7ea53178ccf25f9e6d18a599b5e0330038a19f549cfcd1d98007",
+      "bytes": 204203,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/summaries/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-p5-literal-c-a26-conditional-rejecti-674cf6bb",
+      "kind": "author",
+      "sha256": "674cf6bbfb8b52eccbe434a80c77717e75aa63c9e86a096c2bb33db4f6f0cedb",
+      "bytes": 10719,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_p5_conditional_rejection_independent_audit/summaries/INDEPENDENT_P5_LITERAL_C_A26_CONDITIONAL_REJECTION_AUDIT_V1.md",
+        "evidence/v3/repository/results/2026-08-26_literal_c_a26_p5_conditional_rejection_independent_audit/summaries/INDEPENDENT_P5_LITERAL_C_A26_CONDITIONAL_REJECTION_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-root-cocycle-v2-productio-68b41dd9",
+      "kind": "author",
+      "sha256": "68b41dd9af7f1eefcc232c6e282efd92887e8dc5c55b7ba6908e74053436b688",
+      "bytes": 5392,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V2_PRODUCTION_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-the-primitive-generalized-fermat-equation-357-68e49652",
+      "kind": "author",
+      "sha256": "68e4965247bdf265ff2d40dae884a2a2919e3d3187b69e334f4a75289102f553",
+      "bytes": 449564,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-11_primitive_357_fresh_paper/summaries/THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-hnf22-geometric-fibre-repair-v1-independent--6bb788ad",
+      "kind": "author",
+      "sha256": "6bb788ad30ebcc5f383846b6fc12309e61cc50794049c2c8b0728a23e8b212f1",
+      "bytes": 10016,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_GEOMETRIC_FIBRE_REPAIR_V1_INDEPENDENT_POSTRUN_AUDIT_PASS.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-terminal-engine-reconstruction-v1-6e58f609",
+      "kind": "author",
+      "sha256": "6e58f609a6e01a0395267f6767d2e5f809bd3d829cd80076e92f440900d2c2b9",
+      "bytes": 12319,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_section7_terminal_engine_reconstruction_v1/summaries/SECTION7_TERMINAL_ENGINE_RECONSTRUCTION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-even-irreducible-cm-projector-elimination-v1-701e856d",
+      "kind": "author",
+      "sha256": "701e856d250340e33b552ddda68c511a167833ba3bd5df0e4ab96291a2f9ee16",
+      "bytes": 6722,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_even_irreducible_cm_projector_elimination_v1/summaries/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-mw-sieve-lemma-7-4-report-v1-71f79342",
+      "kind": "author",
+      "sha256": "71f793426f048caad0266f4a79e8f8e3b03ecd2038a0697a87aaac194bb326f9",
+      "bytes": 168544,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-local-tschirnhaus-support-v-73dee0ea",
+      "kind": "author",
+      "sha256": "73dee0ead3a269d54eeee28a8a38a0c252d2bf3b67b307e8ac577fe4bb5a2bd7",
+      "bytes": 9080,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/summaries/NUMBERS_WITHOUT_TIME_LOCAL_TSCHIRNHAUS_SUPPORT_V5.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-even-irreducible-p7-ordinarity-projector-v1-74ae1ef7",
+      "kind": "author",
+      "sha256": "74ae1ef7b5005790aa8f748a950edfcee9762a739aedc37c99eaa5c5729842d1",
+      "bytes": 133882,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/summaries/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-complete-primitive-357-proof-report-v3-778e9574",
+      "kind": "author",
+      "sha256": "778e957484f723f8bd7e58c6f16b08b5c2174868174f619cc04b49bc48dd74dd",
+      "bytes": 232591,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/summaries/COMPLETE_PRIMITIVE_357_PROOF_REPORT_V3.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quadratic-factor-2-5-reconstruction-v1-79745d0c",
+      "kind": "author",
+      "sha256": "79745d0c34a6d9f52d883227608693457db7885db21b26b010787c74a9857e09",
+      "bytes": 18945,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/summaries/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-hnf22-geometric-fibre-repair-v1-independent--7e79227e",
+      "kind": "author",
+      "sha256": "7e79227e13ce1c9f4bcdf003efccb6582e0bba9142aa89e494f7a9ec7a2a7a14",
+      "bytes": 10917,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_GEOMETRIC_FIBRE_REPAIR_V1_INDEPENDENT_STATIC_AUDIT_GO.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-exceptional-splitting-cm-interference-v2-7eb295b4",
+      "kind": "author",
+      "sha256": "7eb295b462e2870eba3f1cc63aedb1b88c01a0e15bf48e9754bf1b888f784080",
+      "bytes": 7732,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v15-845ae7d0",
+      "kind": "author",
+      "sha256": "845ae7d0bf7e58f78fecd33004ea6345ef17d3224660d2522a8b448a473fed79",
+      "bytes": 162889,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-local-lemma-6-8-report-v1-85fee780",
+      "kind": "author",
+      "sha256": "85fee7806e63e824751b28734499ed643ba8d3fd0b6689093f8d2ad5c1fa2a3d",
+      "bytes": 13209,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/summaries/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quantum-projector-method-and-rational-factor-mw--86e6a29e",
+      "kind": "author",
+      "sha256": "86e6a29edb8de0a671a777702a12b2ff26a53278bf94177c80416c0d3f57b31a",
+      "bytes": 287816,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1/summaries/QUANTUM_PROJECTOR_METHOD_AND_RATIONAL_FACTOR_MW_BASIS_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-hunter-corrected-enumeration-v1-88f31ab5",
+      "kind": "author",
+      "sha256": "88f31ab51d64af0d8b01b8352784653a9dc7fa442fe7ea24ddbd53b7e1868c46",
+      "bytes": 6661,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/summaries/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-orbit42-56-coherent-cocycle-v1-static-au-8c620e90",
+      "kind": "author",
+      "sha256": "8c620e90d719e28e2e682ec72768df59b8a72a6d3360599e22b2d751d9f14dc6",
+      "bytes": 6680,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V1_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-hilbert-hecke-packet-replay-audit-v1-8ce148d5",
+      "kind": "author",
+      "sha256": "8ce148d5157ef99b1101ae3a9eec3048a05cf58f315224bf5709a97cc3864363",
+      "bytes": 4338,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/summaries/HILBERT_HECKE_PACKET_REPLAY_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-corrected-global-dependency-replay-checkpoin-9344065b",
+      "kind": "author",
+      "sha256": "9344065bbf8367acc49a7ccce4db1689db5ec4bfd0e03207ed9ac30438341de1",
+      "bytes": 9317,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/summaries/P29_CORRECTED_GLOBAL_DEPENDENCY_REPLAY_CHECKPOINT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-formal-group-lemma-7-5-model-intrinsic--939235ca",
+      "kind": "author",
+      "sha256": "939235cafc822530ce9fd806164a415d92f332252154df9b87efa89c9012f933",
+      "bytes": 11594,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_formal_group_lemma_7_5_v2_model_intrinsic/summaries/SECTION7_FORMAL_GROUP_LEMMA_7_5_MODEL_INTRINSIC_REPORT_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-cycle3-root5-augmented-correction-local-stopp-986256bc",
+      "kind": "author",
+      "sha256": "986256bcd79719e037951cdd92c5cbe1c5db117f83a9d0820f927601eff2cf1a",
+      "bytes": 6030,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_CYCLE3_ROOT5_AUGMENTED_CORRECTION_LOCAL_STOPPING_THEOREM.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-p29-corrected-global-dependency-repl-988e794c",
+      "kind": "author",
+      "sha256": "988e794c420181e9266fb5d9979f24e9d9e8045aba427001198601dcc9a39032",
+      "bytes": 5575,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_global_dependency_replay/summaries/INDEPENDENT_P29_CORRECTED_GLOBAL_DEPENDENCY_REPLAY_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-root-ratio-global-correctio-98c6bd9b",
+      "kind": "author",
+      "sha256": "98c6bd9b81166be5893e35119eb88c811bc10e0421bcb1ee69ca82567810bdc9",
+      "bytes": 8133,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_ROOT_RATIO_GLOBAL_CORRECTION_0X7F_V2_POSTRUN_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-future-v2r10-conditional-selmer-rank-991a171e",
+      "kind": "author",
+      "sha256": "991a171e4a022f012f3ebd223447714dddcb2fe264c1ca9dbcda8b061b1989db",
+      "bytes": 12956,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_v2r10_conditional_selmer_rank_integration_audit1/summaries/INDEPENDENT_FUTURE_V2R10_CONDITIONAL_SELMER_RANK_INTEGRATION_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-full315-completion-mask8-type-decisi-99a63989",
+      "kind": "author",
+      "sha256": "99a639893068aed7fe9453397b40623755281181a79c05cb0d452852a23b29cf",
+      "bytes": 10456,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_FULL315_COMPLETION_MASK8_TYPE_DECISION.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v9-9a072138",
+      "kind": "author",
+      "sha256": "9a0721381bc318054d95a4a7b1881167be4f5926c6f776c207aa5738b9b3ccf0",
+      "bytes": 246192,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-seven-field-single-q29-spectral-compression-v1-9d40f542",
+      "kind": "author",
+      "sha256": "9d40f5424f2372592eb684f340d4851545892fc1f2d3c16cf9d43f841d54a013",
+      "bytes": 214560,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/summaries/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-t21-odlyzko-exact-local-correction-certificate-v-9d6c4029",
+      "kind": "author",
+      "sha256": "9d6c4029eb58b7969c636b21e550238c791225066325592fe76300d3b81e1a6a",
+      "bytes": 8454,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1/summaries/T21_ODLYZKO_EXACT_LOCAL_CORRECTION_CERTIFICATE_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-cm-boundary-case-projector-gap-v1-a0aee051",
+      "kind": "author",
+      "sha256": "a0aee051a7e3db0a5040270f0bdf192955f88e3b284868fc4f2a6af260585a59",
+      "bytes": 168281,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/summaries/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-proposition-6-1-reconstruction-v-a2f33134",
+      "kind": "author",
+      "sha256": "a2f33134b7d240d629fcaf3670053ecc923f6f78d31b00ab1d7b4c786c252aee",
+      "bytes": 250011,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-proposition-7-1-closure-report-v2-a6fd8fd6",
+      "kind": "author",
+      "sha256": "a6fd8fd6f04a5749ee3e90d123c204d4a0a5d49d9a59ad5e97736494d7202d86",
+      "bytes": 8348,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/summaries/SECTION7_PROPOSITION_7_1_CLOSURE_REPORT_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-pvt-putz-interface-audit-report-v2-a74d66ad",
+      "kind": "author",
+      "sha256": "a74d66adf01f25feee16128c7c92910f857ebd831946ffa47f3fb4cb14758e7e",
+      "bytes": 9356,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/summaries/PVT_PUTZ_INTERFACE_AUDIT_REPORT_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-deep-projector-report-v1-a83b5369",
+      "kind": "author",
+      "sha256": "a83b5369acd7b935b2ec5131ab9ee1d19b307762d3e391ed1981370cf55bf6fa",
+      "bytes": 26251,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1/summaries/RATIONAL_FACTOR_DEEP_PROJECTOR_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-even-irreducible-p7-ordinarity-projector-v1-aba1648e",
+      "kind": "author",
+      "sha256": "aba1648edbc8fc18dd4579e30d1b55d4d08e7e24f510333777dda5b2c46827cf",
+      "bytes": 4277,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/summaries/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-19-field-joint-projector-cover-v1-adf44c7e",
+      "kind": "author",
+      "sha256": "adf44c7eeff2735381c5cf5ffa52059cb005de462f7b0aa283a7b1f41c25a686",
+      "bytes": 180145,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/summaries/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v13-ae4b3850",
+      "kind": "author",
+      "sha256": "ae4b385092748f64469226e3acd7b7e0001c53a8f381c13cd33e5717d807865c",
+      "bytes": 170993,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-exact-tau-star-orbit-provenance-certificate-desi-aeefc84c",
+      "kind": "author",
+      "sha256": "aeefc84cd0ce6c0843af1a76ff02ac503ad88905beffc2afa5095347059ef2bb",
+      "bytes": 11273,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/EXACT_TAU_STAR_ORBIT_PROVENANCE_CERTIFICATE_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-strict-corrected-c25-independent-audit-v1-b021dd59",
+      "kind": "author",
+      "sha256": "b021dd59537275692cd944d78a4dbd5994bf1ce2623f38a533dff2bc66aaeda0",
+      "bytes": 2276,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-30_p7_p109_corrected_c25_strict_independent_audit_v1/summaries/STRICT_CORRECTED_C25_INDEPENDENT_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-hunter-closed-interval-completeness-repair--b091d873",
+      "kind": "author",
+      "sha256": "b091d873c0454be66912fcfc75c22a5f5194a9143ea5236dfa024a1451de7903",
+      "bytes": 8965,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/summaries/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-hunter-state-space-repair-v-b0fc895d",
+      "kind": "author",
+      "sha256": "b0fc895d83b7168bf5f4e655ab26fe5fbab9da603605105f2321efdb4bc13161",
+      "bytes": 11603,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/summaries/NUMBERS_WITHOUT_TIME_HUNTER_STATE_SPACE_REPAIR_V3.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-p29-hnf22-full-local-fake-image-diag-b1cc28bd",
+      "kind": "author",
+      "sha256": "b1cc28bdef564c4bc01940f693ae7c78fc5101791ef6b1a8e67e90869ce12b83",
+      "bytes": 6692,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/INDEPENDENT_P29_HNF22_FULL_LOCAL_FAKE_IMAGE_DIAGONAL_THEOREM_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-hunter-closed-interval-completeness-repair--b22f0e7b",
+      "kind": "author",
+      "sha256": "b22f0e7b669dba3e362a6f3ac06d5a8ef1b8b9e2999477aab6e05adb3d363ffb",
+      "bytes": 206022,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/summaries/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-hnf22-geometric-fibre-repair-v1-final-prepar-b281799a",
+      "kind": "author",
+      "sha256": "b281799a3373a4d0e9eb854d90badd13b50eb6c8999c924b44d2d5ff7e41206e",
+      "bytes": 5149,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_GEOMETRIC_FIBRE_REPAIR_V1_FINAL_PREPARE_ONLY_DECISION.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-local-tschirnhaus-support-v-b3ac2d17",
+      "kind": "author",
+      "sha256": "b3ac2d1782028d9702412a00b278233b270a5426667d37fc8733ccd286a38471",
+      "bytes": 182774,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/summaries/NUMBERS_WITHOUT_TIME_LOCAL_TSCHIRNHAUS_SUPPORT_V5.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-orbit42-56-coherent-cocycle-v2-static-au-b5b1a800",
+      "kind": "author",
+      "sha256": "b5b1a8005810989969a2afbf16840babb79e8b96521447def5a2be8031e752d2",
+      "bytes": 7473,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_ORBIT42_56_COHERENT_COCYCLE_V2_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-coherent-cocycle-v3-static-acceptance-ch-b67a534c",
+      "kind": "author",
+      "sha256": "b67a534c8564a3cc20140f7fa6e1c27211ee267407e549d6eb2236a0d3782f7d",
+      "bytes": 11800,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/SCEPTIC_COHERENT_COCYCLE_V3_STATIC_ACCEPTANCE_CHECKLIST.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-exceptional-splitting-cm-interference-v2-b68153c6",
+      "kind": "author",
+      "sha256": "b68153c69d282410ec906229f9997993f3f022fca2453088d9f79347888e0ce9",
+      "bytes": 196051,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reducible-mod7-static-state-projector-v1-b6d59f25",
+      "kind": "author",
+      "sha256": "b6d59f251d4bf8f559fa198bb0f84002227661b65bb47ff39aee5e1cd5596458",
+      "bytes": 8055,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_reducible_mod7_static_state_projector_v1/summaries/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v9-b9912520",
+      "kind": "author",
+      "sha256": "b99125205288e1fc080267fb1756fd618f593c76dec3d5bffaab120fb84a474f",
+      "bytes": 4254,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-putz-degree7-f42-projector-bridge-audit-v1-bd669303",
+      "kind": "author",
+      "sha256": "bd669303e7f749aac38a47ce22665c750bb842bd565a1c05e782fef8a1701a83",
+      "bytes": 8292,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/summaries/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-j27-exact-unit-image-2-saturation-certificate-v1-be634f1a",
+      "kind": "author",
+      "sha256": "be634f1aeba0c929e87d65fe899a63f30486b24b7a6f3bae26f8941fe4633c08",
+      "bytes": 7662,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_l2_relative_s4_j27/summaries/J27_EXACT_UNIT_IMAGE_2_SATURATION_CERTIFICATE_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-reframer-p7-orbit42-56-coherent-cocycle-v1-stati-bf9fbac8",
+      "kind": "author",
+      "sha256": "bf9fbac85eeb32e1e9d7ab652726d85394b345e9b51713975ab79b68f75f3649",
+      "bytes": 6917,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/REFRAMER_P7_ORBIT42_56_COHERENT_COCYCLE_V1_STATIC_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-targeted-hunter-spectral-bo-c03079c7",
+      "kind": "author",
+      "sha256": "c03079c79a408fd4810fd4368982deee7f329b79bed27d818fabf873a0fbc6ec",
+      "bytes": 6873,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/summaries/NUMBERS_WITHOUT_TIME_TARGETED_HUNTER_SPECTRAL_BOUND_V7.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-mixed-rational-t-signature-357-closure-v1-c18e665b",
+      "kind": "author",
+      "sha256": "c18e665b93f45c1f31e86dde8bf624bbd6254d310988dd7f47d63d7aa2c40730",
+      "bytes": 12502,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/summaries/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-t-odd-targeted-2-class-boundary-v1-c28adf33",
+      "kind": "author",
+      "sha256": "c28adf330132f838719624becb38319fcb065d07bce0bbd055a29b548177ef89",
+      "bytes": 8560,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_l2_relative_s4_t_odd_targeted_boundary/summaries/T_ODD_TARGETED_2_CLASS_BOUNDARY_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-s2-exceptional-s7-projector-v1-c3727d54",
+      "kind": "author",
+      "sha256": "c3727d54cbc056f043dcc6b1797b5f249eb10a6d50f641a0cac3015bf700dbea",
+      "bytes": 9807,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/summaries/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v1-c44939e4",
+      "kind": "author",
+      "sha256": "c44939e4bc045277754706fb36151eb374147a175ec300e70d5de79f492e119f",
+      "bytes": 243944,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-corrected-hnf22-known-point-literal-c-complement-c5f6dfe3",
+      "kind": "author",
+      "sha256": "c5f6dfe31e689f1acc7434a037cf967e54049e061ad4b59e576692ab7dc892d8",
+      "bytes": 10026,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_corrected_quotient_coordinates/summaries/CORRECTED_HNF22_KNOWN_POINT_LITERAL_C_COMPLEMENT_THEOREM_V1.md",
+        "evidence/v3/repository/results/2026-08-26_corrected_quotient_coordinates/summaries/CORRECTED_HNF22_KNOWN_POINT_LITERAL_C_COMPLEMENT_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-even-irreducible-cm-projector-elimination-v1-c7958e99",
+      "kind": "author",
+      "sha256": "c7958e99e36bbe2c58058d35487519994fdaf0cace62375f6eff3e843949a72c",
+      "bytes": 179754,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_even_irreducible_cm_projector_elimination_v1/summaries/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v7-ca671e9c",
+      "kind": "author",
+      "sha256": "ca671e9c04cfb74ad839bdade714de928ed5e6906865d517bc307aff600da99f",
+      "bytes": 22128,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p23-local-log-saturation-theorem-v1-ca749438",
+      "kind": "author",
+      "sha256": "ca749438bf733a400adff47d2c23e1176458bf56200f7f0c4156f9f267bb5592",
+      "bytes": 3275,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-06_p23_local_log_saturation_v1/summaries/P23_LOCAL_LOG_SATURATION_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-mordell-weil-basis-lemma-7-3-report-v1-d0cd5ce6",
+      "kind": "author",
+      "sha256": "d0cd5ce6ce29a30a9f84863845f11cdd5bcf87ec287875e79b37a4ee946ab67d",
+      "bytes": 167651,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_mordell_weil_basis_lemma_7_3_v1/summaries/SECTION7_MORDELL_WEIL_BASIS_LEMMA_7_3_REPORT_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quadratic-factor-2-5-reconstruction-v1-d1a5c80a",
+      "kind": "author",
+      "sha256": "d1a5c80a66fcf1ff6a1ee179d9c34010c06aaf32006fb2c05deb87e8b50d613b",
+      "bytes": 233421,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/summaries/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-finite-state-projector-inva-d3ada1c7",
+      "kind": "author",
+      "sha256": "d3ada1c711d924378566997d6c4b269dcace765005327f2a2603411ea33adc6b",
+      "bytes": 198031,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/summaries/NUMBERS_WITHOUT_TIME_FINITE_STATE_PROJECTOR_INVARIANT_V4.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quadratic-factor-router-2-5-v1-d4e74850",
+      "kind": "author",
+      "sha256": "d4e748504565378ef5bddb74d375479e453578ab3acef06f7bc2ba127af34adc",
+      "bytes": 211636,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/summaries/QUADRATIC_FACTOR_ROUTER_2_5_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-proposition-7-1-closure-report-v2-d691505f",
+      "kind": "author",
+      "sha256": "d691505fd0ecf33e4502b9b896ea36e31e064c44909cf08ceaa43aff3a7201f4",
+      "bytes": 182744,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/summaries/SECTION7_PROPOSITION_7_1_CLOSURE_REPORT_V2.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p5-literal-c-a26-candidate-late-v2-report-d8f2b003",
+      "kind": "author",
+      "sha256": "d8f2b003bfcf479a2d88cfcb17938d1ba0c59e2fcc00571dd3a50ea98c7a88dc",
+      "bytes": 5628,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_residual_bits/summaries/P5_LITERAL_C_A26_CANDIDATE_LATE_V2_REPORT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-f42-exact-five-saturation-repair-v1-d9418dd4",
+      "kind": "author",
+      "sha256": "d9418dd43b77fb8b8830f089eac7b5443740741013d41317e82bd3928d2f22c7",
+      "bytes": 4081,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-30_p7_f42_exact_five_saturation_repair_v1/summaries/P7_F42_EXACT_FIVE_SATURATION_REPAIR_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-displayed-complement-s-local-source--da000639",
+      "kind": "author",
+      "sha256": "da0006399b889bc354104f92a3c272812a0f797bf81a2f5427a6871ca1f252db",
+      "bytes": 19489,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_DISPLAYED_COMPLEMENT_S_LOCAL_SOURCE_THEOREM_ACCEPTANCE_AUDIT_V2.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-numbers-without-time-hunter-state-space-repair-v-da99bd7e",
+      "kind": "author",
+      "sha256": "da99bd7ef1b09dcd8dc2ab11fcd12f6c73b744af812aaf91284d9a4e77018f62",
+      "bytes": 181265,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/summaries/NUMBERS_WITHOUT_TIME_HUNTER_STATE_SPACE_REPAIR_V3.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quartic-factor-router-3-4-v1-dac4b43d",
+      "kind": "author",
+      "sha256": "dac4b43d83152372fcde49dd21dd44062027b7949578148a324f08fc87fb9b3e",
+      "bytes": 227781,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-literal-c-five-place-theorem-accepta-dca515ca",
+      "kind": "author",
+      "sha256": "dca515cac416e88d23852761aa1f66d7fb9cd5a46b60a06f2f8beb45d1fd5b35",
+      "bytes": 24637,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_LITERAL_C_FIVE_PLACE_THEOREM_ACCEPTANCE_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-cocycle-v3-theorem-and-stat-df3d29d1",
+      "kind": "author",
+      "sha256": "df3d29d1d1ad1a0229f08507f667c946c49a9b590dd1e1a349267d064cd85943",
+      "bytes": 15365,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V3_THEOREM_AND_STATIC_GO_NOGO_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-cocycle-v4-cap-verdict-erra-e0852311",
+      "kind": "author",
+      "sha256": "e08523114b753e5cc911daf20025ed81318a3f509e8073a06a0344f312f7dcd7",
+      "bytes": 7203,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_CAP_VERDICT_ERRATUM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p29-hnf22-geometric-fibre-repair-v1-acceptance-c-e1a43bbd",
+      "kind": "author",
+      "sha256": "e1a43bbd18fb6f00ca7b8d4d563f0eb7997c91867637ac0a9fa0cf06fcdc0d4a",
+      "bytes": 10821,
+      "logical_destinations": [
+        "evidence/rank/repository/results/2026-08-26_p29_geometric_fibre_repair/summaries/P29_HNF22_GEOMETRIC_FIBRE_REPAIR_V1_ACCEPTANCE_CONTRACT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-p7-orbit42-56-coherent-root-cocycle-v4-resume1-p-e1f8572c",
+      "kind": "author",
+      "sha256": "e1f8572cb07f40ec132978c7cc8914abff58c53b4ab51e9d948bc2336180a79c",
+      "bytes": 6978,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/P7_ORBIT42_56_COHERENT_ROOT_COCYCLE_V4_RESUME1_PRODUCTION_DESIGN.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-the-primitive-generalized-fermat-equation-357-e58535f0",
+      "kind": "author",
+      "sha256": "e58535f09a9524ca15d37bfa42c8b8acfb4f58ad4da9d13f18cf1b23f4966337",
+      "bytes": 45692,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-11_primitive_357_fresh_paper/summaries/THE_PRIMITIVE_GENERALIZED_FERMAT_EQUATION_357.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v14-e5f9a4f6",
+      "kind": "author",
+      "sha256": "e5f9a4f687c3850f3ab94c91a3a0f30d33a7be069403c9492953e6a2163334d7",
+      "bytes": 182858,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-signed-ds-branch-local-pattern-audit-v1-e8273167",
+      "kind": "author",
+      "sha256": "e82731670b290cb6a220e388c156e1699c25bfe1bf6fe3bb622ebabd44d503d0",
+      "bytes": 3155,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/summaries/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-adversarial-t21-odlyzko-exact-local--e860a8ef",
+      "kind": "author",
+      "sha256": "e860a8efa1ed1d4c09aa03368b2876f221ac02987a1bca44f2a5e2609b6964a8",
+      "bytes": 9523,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1_independent_adversarial_audit/summaries/INDEPENDENT_ADVERSARIAL_T21_ODLYZKO_EXACT_LOCAL_CERTIFICATE_AUDIT_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-quartic-factor-router-3-4-v1-ea7196f6",
+      "kind": "author",
+      "sha256": "ea7196f6b994ed824c760bd68a5f0214a56cde14d718c36f47634b8895aea636",
+      "bytes": 17537,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-static-projector-end-to-end-proof-candidate-v15-eb819a7f",
+      "kind": "author",
+      "sha256": "eb819a7fd7798591df43d193cd0c4d000d9c73133f15e54968fe164707173855",
+      "bytes": 4884,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-coherent-root-relation-sign-theorem-audit-ebf90a09",
+      "kind": "author",
+      "sha256": "ebf90a098cfffd8c1eb7674953c051e689cba0116fc792447f35a77d4bdd9aac",
+      "bytes": 12921,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/COHERENT_ROOT_RELATION_SIGN_THEOREM_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-rational-factor-proposition-6-1-reconstruction-v-ed088069",
+      "kind": "author",
+      "sha256": "ed088069b276872be6aa58c8b5a12aed2a54a921023575e57fea64de3908f87d",
+      "bytes": 20163,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-f-odd-degree21-reduction-and-no-go-v1-efc3faff",
+      "kind": "author",
+      "sha256": "efc3faff7a75909b87aa86bfab6675af4bf5f06de332c50dc7c682f093a620b1",
+      "bytes": 11780,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-08-26_l2_relative_s4_f_odd/summaries/F_ODD_DEGREE21_REDUCTION_AND_NO_GO_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-literal-c-p7-partition-gauge-theorem-v1-f09c231a",
+      "kind": "author",
+      "sha256": "f09c231ab60ebb69709cc3b58dd5bcba4186d64ece014ebc4fbeb3e3c6a6e150",
+      "bytes": 12186,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_p7_partition_gauge/summaries/LITERAL_C_P7_PARTITION_GAUGE_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-displayed-complement-bps-a13-same-alpha-promotio-f4eae72f",
+      "kind": "author",
+      "sha256": "f4eae72faeeb5b6ce3e8cef5d0bd9d46713c5c2951707b2bceae68b0c5ad0d01",
+      "bytes": 14633,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/DISPLAYED_COMPLEMENT_BPS_A13_SAME_ALPHA_PROMOTION_THEOREM_V1.md",
+        "evidence/v3/repository/results/2026-08-25_source_class_bridge_resume/summaries/DISPLAYED_COMPLEMENT_BPS_A13_SAME_ALPHA_PROMOTION_THEOREM_V1.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-independent-coherent-cocycle-v4-theorem-and-stat-f6dac927",
+      "kind": "author",
+      "sha256": "f6dac9278311dc27f70309ea1bc083c71bbbd38c43e1008aad77d0a4f57d7f94",
+      "bytes": 16073,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-25_source_class_bridge_resume/summaries/INDEPENDENT_COHERENT_COCYCLE_V4_THEOREM_AND_STATIC_GO_NOGO_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-sceptic-literal-c-bps-a26-true-lift-gate-v1-audi-f7571f50",
+      "kind": "author",
+      "sha256": "f7571f508540292e4304105ebb6a51b60c9706c0753e460ce8de1d4f479904cc",
+      "bytes": 8858,
+      "logical_destinations": [
+        "evidence/p5/repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/SCEPTIC_LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1_AUDIT.md",
+        "evidence/v3/repository/results/2026-08-26_literal_c_a26_true_lift_gate/summaries/SCEPTIC_LITERAL_C_BPS_A26_TRUE_LIFT_GATE_V1_AUDIT.md"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-odd-packet-exceptional-interference-q17-v1-fa6caa0a",
+      "kind": "author",
+      "sha256": "fa6caa0a16b26cc1d43832e5580fa96ddcac4e634dc90042ea6d3ed435898801",
+      "bytes": 182757,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/summaries/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1.pdf"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    },
+    {
+      "id": "author-section7-mw-sieve-lemma-7-4-report-v1-fc247ff8",
+      "kind": "author",
+      "sha256": "fc247ff8acda88b4740e3a012e0741f50cd4d9a9c95161189735188f972b1f44",
+      "bytes": 7307,
+      "logical_destinations": [
+        "evidence/v3/repository/results/2026-09-10_section7_mw_sieve_lemma_7_4_v1/summaries/SECTION7_MW_SIEVE_LEMMA_7_4_REPORT_V1.tex"
+      ],
+      "private_destinations": [],
+      "material_type": "author_working_document",
+      "rights_status": "Author's internal working report. Not part of the public distribution; supplied by the author on request for a full replay, and authenticated by the digest above."
+    }
+  ],
+  "removed_public_objects": [
+    "01a11905135ee04ff53f4d889b3ee8b8249340cacd1665a01127412f36811485",
+    "03107ac63435d490840bf8ff6aa5709f61a73864b82ad74e192864b20452a373",
+    "038abab5c8ff027f9aebf8afe997e781d91b8656a3bb950ab0d3d56488bd9f5e",
+    "06d24d5a8ce0a7326697eeefa5253292e6a9783685f9b15aa3c0a7cd080299aa",
+    "0aa4e55949fee1d408f86832f9a7adf63f7fd99b0b680ad9acce048be752c636",
+    "0cfec09728a4b49e548cebba62aee6c4760dbc4b401015d7630d600c0f9e4825",
+    "0d47d9f25e3d482c63c1ecb9d06a29daf126ec5a3e94ed924efee53b49b52635",
+    "0f76249625ce1551c263ce024e37bac85744c578fd96406125e90e14adc29737",
+    "1197ed2484fc4e8439c446b85a35aa7aa7f28f55b88ef698d1814d0386472ddc",
+    "12e08b756b6772480184771d1382f001b99cc5b7f7ac45ceb8c9320f0a58ed18",
+    "13241e00c38290dc263fc5ad95378728498ac0a6c6ab23ec4398452eb002bd87",
+    "139b3d32d4ff73eef171e5001b4922d336fd7fba9c746f655ee015f841037e44",
+    "13df1020492dbfec6ccff4da6ab432340073f1a8c5edcf07f24c665fd0d87e95",
+    "159d1b27317b039408ea1993a9ba40465177362d29372babd46d1cbaac94fea3",
+    "169e3b219e60ad75ba20f93d9312a3ba8582ef21406ccad89c5aadf2c5e14924",
+    "17313dd709de2b1a2efdb6425ddfde00d6c7f81deb7a38f9005e792537f20178",
+    "17d5fc96b24fa712747d42389347fb80f92a8fd2dfd90f06d2e66bf98ae9fc61",
+    "18639a3d107d26f304108ffa0a300960b133473b4c02be0d044173930498ad33",
+    "192d73826cb798574d471773b18c78afe199a8415b74e46bad794b1f3ecfd601",
+    "1b9ddc484af818c43c8f0fbbfe91cdb861749447f294d026120d1d1475733144",
+    "1d398c5d1a9e31ad1a44e9097aa0b2fe84c2b68aa3b2569aa30021b204553c18",
+    "1de9823819bc0075ebcf2d8169f9853b37a45261afad3fb44e38af2167521193",
+    "1ea943fc7a355411ce1720657d8e63faab49366278138d8d7dbe53964231687d",
+    "207847e0b72842bdf652998bf7a6ad9dc95bddb31e226d1dc4c87c522f805cd5",
+    "21811d020ee51a7fb39c6664bb2ceeee9f6e0775665f9dcdddb82d3a3ae0925e",
+    "232848daa8923a30451fe67d2b9779141882aead40c0f7cf9dc63934aeef78b6",
+    "246931aba6a5a0022738056750cf5d15a9ba52b98b987cf192b0c60021ba216c",
+    "247a0bf830988e6bfcbea143a6f93374d350225f6a673ec201dd7babadd7408b",
+    "25e45c1ddc9bbfd547cf151eeecffaa088992d104404d6a1795a203a47b9a536",
+    "2615f955d88872a1ce2f2ee95363497c8ae0370302a33bb7933ca9f8144c778c",
+    "27810d93258f2c376427ca61d030e9f17c36f47854be251150f4eadeb7290984",
+    "28bd5d43af1b7fa594d2ddd14a657ea038ac7cafb584a0aa10519fd62dfb7886",
+    "2ae8b0605bc0f7458659eaa7629bb0c4261f5c9d7e1e9cceb99040c1872556f0",
+    "2c28db30030b7019671bbd07903d9c4405cb178706e379cee02ad10ac3f3cea4",
+    "2caf9dd7c8767eb3d119bb4e6685bea1304a3f6d1c4ace95b74b6a612241af5f",
+    "2dd87a3094424f09e2271ceedf023de530699d4f85e5f71ac3c48ad4026b2672",
+    "2e2038cdff77dd3f9206a56772414c1f0b9c7103124d73e91700deab57a2c1f9",
+    "2f2a3561797adc841e0f158da816164ef56d3554716721ac60f51022b7e81566",
+    "2f915ea9334f5332d718caec3cfd757fe203805b0f71ee0ba77631ca1f0f432a",
+    "301b3d04b7b4a87484fb682ac2c0c2028d30ebe307a2eebc0c92cc08fa553970",
+    "3268de83b18fc6cbddd9988c053bf6443c2eb9f95375b4cba6d5ceacef5cd769",
+    "337770d3b4d5975614c91d6d1e850c350e6b07df5dba6797c145508c100fe5e5",
+    "34472fbf731b57e85f51aa760becd530b48f2be57e3626ff792e5d062eeec319",
+    "38a450aafa383976a23ad281cd7f9887e6275def6c724bed24e97957cb1e8439",
+    "3cc4b7ba304cd010fc3565677f2881a10ab9276cfc3bd93c3a26cdc205bf7d82",
+    "435932ca3675a985225d17a4da1c22d51bc7d29c2be3971f9e2feed0a29fbd4f",
+    "435e63e3eb6b4c80f91b0e25d6d9d366093188388aceef77c2eb047528157ff0",
+    "4755c0506db302e4b6474c9a8b04315f893658e66e3b1aee2d13a45457f26d48",
+    "481b5635489f22e38b3749502a1a2c2017529dfa6226073e7dcfca44dab267f5",
+    "4d4e3d9b128260c7ca8a51e80437b4f318eb22cb61c3dcd30b75e634e3e75345",
+    "4d70997b5368c6a400c897f9303529c5c07e26804eab2a59b725594fbbf0a1d9",
+    "4e083a8c38dc714b372bec7fe7f89281131b8d69c9e4a80b8301bb798e007c9d",
+    "4fd57794d9204f9767a60b383c013a01d5c94ca0ef48e8f503d902e30c50f2f7",
+    "5056fa7901a7091ed292fc45963b18162420e3b321c1445f6ade0bfc872aa85f",
+    "50f32aa22e0e81af049ee6e24f858284e01059ea8bf4eadca85245c0373bf3ec",
+    "5117c9e9b5ae7c850dd4e94b851ae5ced30cdbf9178706bc359f72e90aa56f04",
+    "523d77625b68d7ecf6b0e5bbb020d75af4ed2195fcff3853d01b7c176d2572bb",
+    "546a26e22747313fbf15335ad1910bb5771d2dc8f422c34225cd461b8de599f1",
+    "55ce4cf7ea43749bb106461fd5e8fd3c1a950f9628cbc076a85886046465ed49",
+    "55d4bde62521e23291ca7fc5aa66e54e8af950c7566a999b9cdb50bdd48f9c75",
+    "56cc1a1dd07d9da4880cc27158cfc48af3d26b1ecbad52daf17fac0742806ad2",
+    "57cf5700d26384fc94616f58c8506a5530e47b3e6dc44aa0096b186bd868987f",
+    "58cd191208b7d7d650f048114023dea0bfea0ea4dc0ac3ea11a9b3c7d67f1e99",
+    "59d9748c5b98aca313af9ad82c0b9497931f3495a3895ae914eda6ddb3a470b6",
+    "5c4038f73b999863322f80ccd1125800faf54b8508670d8f420fe88d8e65a31f",
+    "5d1a82558992abec77850f40d326a22fa18ddfcfd0a19329f32ebb2154c98507",
+    "5d523aff1802c8aedf92981fdb38e9eaa215162ca83bd65f15ba74cd379d306f",
+    "61b5ac063ff1a538bec7a409671eddc7fa9cddb5c1c72906bbbf4415817ddc06",
+    "62f93714b640ff1580cac2dda945316b93b908539d70140b66ae99b171af36fa",
+    "646c7549bade7ea53178ccf25f9e6d18a599b5e0330038a19f549cfcd1d98007",
+    "674cf6bbfb8b52eccbe434a80c77717e75aa63c9e86a096c2bb33db4f6f0cedb",
+    "68b41dd9af7f1eefcc232c6e282efd92887e8dc5c55b7ba6908e74053436b688",
+    "68e4965247bdf265ff2d40dae884a2a2919e3d3187b69e334f4a75289102f553",
+    "6bb788ad30ebcc5f383846b6fc12309e61cc50794049c2c8b0728a23e8b212f1",
+    "6e58f609a6e01a0395267f6767d2e5f809bd3d829cd80076e92f440900d2c2b9",
+    "701e856d250340e33b552ddda68c511a167833ba3bd5df0e4ab96291a2f9ee16",
+    "71f793426f048caad0266f4a79e8f8e3b03ecd2038a0697a87aaac194bb326f9",
+    "73dee0ead3a269d54eeee28a8a38a0c252d2bf3b67b307e8ac577fe4bb5a2bd7",
+    "74ae1ef7b5005790aa8f748a950edfcee9762a739aedc37c99eaa5c5729842d1",
+    "778e957484f723f8bd7e58c6f16b08b5c2174868174f619cc04b49bc48dd74dd",
+    "79745d0c34a6d9f52d883227608693457db7885db21b26b010787c74a9857e09",
+    "7e79227e13ce1c9f4bcdf003efccb6582e0bba9142aa89e494f7a9ec7a2a7a14",
+    "7eb295b462e2870eba3f1cc63aedb1b88c01a0e15bf48e9754bf1b888f784080",
+    "845ae7d0bf7e58f78fecd33004ea6345ef17d3224660d2522a8b448a473fed79",
+    "85fee7806e63e824751b28734499ed643ba8d3fd0b6689093f8d2ad5c1fa2a3d",
+    "86e6a29edb8de0a671a777702a12b2ff26a53278bf94177c80416c0d3f57b31a",
+    "88f31ab51d64af0d8b01b8352784653a9dc7fa442fe7ea24ddbd53b7e1868c46",
+    "8c620e90d719e28e2e682ec72768df59b8a72a6d3360599e22b2d751d9f14dc6",
+    "8ce148d5157ef99b1101ae3a9eec3048a05cf58f315224bf5709a97cc3864363",
+    "9344065bbf8367acc49a7ccce4db1689db5ec4bfd0e03207ed9ac30438341de1",
+    "939235cafc822530ce9fd806164a415d92f332252154df9b87efa89c9012f933",
+    "986256bcd79719e037951cdd92c5cbe1c5db117f83a9d0820f927601eff2cf1a",
+    "988e794c420181e9266fb5d9979f24e9d9e8045aba427001198601dcc9a39032",
+    "98c6bd9b81166be5893e35119eb88c811bc10e0421bcb1ee69ca82567810bdc9",
+    "991a171e4a022f012f3ebd223447714dddcb2fe264c1ca9dbcda8b061b1989db",
+    "99a639893068aed7fe9453397b40623755281181a79c05cb0d452852a23b29cf",
+    "9a0721381bc318054d95a4a7b1881167be4f5926c6f776c207aa5738b9b3ccf0",
+    "9d40f5424f2372592eb684f340d4851545892fc1f2d3c16cf9d43f841d54a013",
+    "9d6c4029eb58b7969c636b21e550238c791225066325592fe76300d3b81e1a6a",
+    "a0aee051a7e3db0a5040270f0bdf192955f88e3b284868fc4f2a6af260585a59",
+    "a2f33134b7d240d629fcaf3670053ecc923f6f78d31b00ab1d7b4c786c252aee",
+    "a6fd8fd6f04a5749ee3e90d123c204d4a0a5d49d9a59ad5e97736494d7202d86",
+    "a74d66adf01f25feee16128c7c92910f857ebd831946ffa47f3fb4cb14758e7e",
+    "a83b5369acd7b935b2ec5131ab9ee1d19b307762d3e391ed1981370cf55bf6fa",
+    "aba1648edbc8fc18dd4579e30d1b55d4d08e7e24f510333777dda5b2c46827cf",
+    "adf44c7eeff2735381c5cf5ffa52059cb005de462f7b0aa283a7b1f41c25a686",
+    "ae4b385092748f64469226e3acd7b7e0001c53a8f381c13cd33e5717d807865c",
+    "aeefc84cd0ce6c0843af1a76ff02ac503ad88905beffc2afa5095347059ef2bb",
+    "b021dd59537275692cd944d78a4dbd5994bf1ce2623f38a533dff2bc66aaeda0",
+    "b091d873c0454be66912fcfc75c22a5f5194a9143ea5236dfa024a1451de7903",
+    "b0fc895d83b7168bf5f4e655ab26fe5fbab9da603605105f2321efdb4bc13161",
+    "b1cc28bdef564c4bc01940f693ae7c78fc5101791ef6b1a8e67e90869ce12b83",
+    "b22f0e7b669dba3e362a6f3ac06d5a8ef1b8b9e2999477aab6e05adb3d363ffb",
+    "b281799a3373a4d0e9eb854d90badd13b50eb6c8999c924b44d2d5ff7e41206e",
+    "b3ac2d1782028d9702412a00b278233b270a5426667d37fc8733ccd286a38471",
+    "b5b1a8005810989969a2afbf16840babb79e8b96521447def5a2be8031e752d2",
+    "b67a534c8564a3cc20140f7fa6e1c27211ee267407e549d6eb2236a0d3782f7d",
+    "b68153c69d282410ec906229f9997993f3f022fca2453088d9f79347888e0ce9",
+    "b6d59f251d4bf8f559fa198bb0f84002227661b65bb47ff39aee5e1cd5596458",
+    "b99125205288e1fc080267fb1756fd618f593c76dec3d5bffaab120fb84a474f",
+    "bd669303e7f749aac38a47ce22665c750bb842bd565a1c05e782fef8a1701a83",
+    "be634f1aeba0c929e87d65fe899a63f30486b24b7a6f3bae26f8941fe4633c08",
+    "bf9fbac85eeb32e1e9d7ab652726d85394b345e9b51713975ab79b68f75f3649",
+    "c03079c79a408fd4810fd4368982deee7f329b79bed27d818fabf873a0fbc6ec",
+    "c18e665b93f45c1f31e86dde8bf624bbd6254d310988dd7f47d63d7aa2c40730",
+    "c28adf330132f838719624becb38319fcb065d07bce0bbd055a29b548177ef89",
+    "c3727d54cbc056f043dcc6b1797b5f249eb10a6d50f641a0cac3015bf700dbea",
+    "c44939e4bc045277754706fb36151eb374147a175ec300e70d5de79f492e119f",
+    "c5f6dfe31e689f1acc7434a037cf967e54049e061ad4b59e576692ab7dc892d8",
+    "c7958e99e36bbe2c58058d35487519994fdaf0cace62375f6eff3e843949a72c",
+    "ca671e9c04cfb74ad839bdade714de928ed5e6906865d517bc307aff600da99f",
+    "ca749438bf733a400adff47d2c23e1176458bf56200f7f0c4156f9f267bb5592",
+    "d0cd5ce6ce29a30a9f84863845f11cdd5bcf87ec287875e79b37a4ee946ab67d",
+    "d1a5c80a66fcf1ff6a1ee179d9c34010c06aaf32006fb2c05deb87e8b50d613b",
+    "d3ada1c711d924378566997d6c4b269dcace765005327f2a2603411ea33adc6b",
+    "d4e748504565378ef5bddb74d375479e453578ab3acef06f7bc2ba127af34adc",
+    "d691505fd0ecf33e4502b9b896ea36e31e064c44909cf08ceaa43aff3a7201f4",
+    "d8f2b003bfcf479a2d88cfcb17938d1ba0c59e2fcc00571dd3a50ea98c7a88dc",
+    "d9418dd43b77fb8b8830f089eac7b5443740741013d41317e82bd3928d2f22c7",
+    "da0006399b889bc354104f92a3c272812a0f797bf81a2f5427a6871ca1f252db",
+    "da99bd7ef1b09dcd8dc2ab11fcd12f6c73b744af812aaf91284d9a4e77018f62",
+    "dac4b43d83152372fcde49dd21dd44062027b7949578148a324f08fc87fb9b3e",
+    "dca515cac416e88d23852761aa1f66d7fb9cd5a46b60a06f2f8beb45d1fd5b35",
+    "df3d29d1d1ad1a0229f08507f667c946c49a9b590dd1e1a349267d064cd85943",
+    "e08523114b753e5cc911daf20025ed81318a3f509e8073a06a0344f312f7dcd7",
+    "e1a43bbd18fb6f00ca7b8d4d563f0eb7997c91867637ac0a9fa0cf06fcdc0d4a",
+    "e1f8572cb07f40ec132978c7cc8914abff58c53b4ab51e9d948bc2336180a79c",
+    "e58535f09a9524ca15d37bfa42c8b8acfb4f58ad4da9d13f18cf1b23f4966337",
+    "e5f9a4f687c3850f3ab94c91a3a0f30d33a7be069403c9492953e6a2163334d7",
+    "e82731670b290cb6a220e388c156e1699c25bfe1bf6fe3bb622ebabd44d503d0",
+    "e860a8efa1ed1d4c09aa03368b2876f221ac02987a1bca44f2a5e2609b6964a8",
+    "ea7196f6b994ed824c760bd68a5f0214a56cde14d718c36f47634b8895aea636",
+    "eb819a7fd7798591df43d193cd0c4d000d9c73133f15e54968fe164707173855",
+    "ebf90a098cfffd8c1eb7674953c051e689cba0116fc792447f35a77d4bdd9aac",
+    "ed088069b276872be6aa58c8b5a12aed2a54a921023575e57fea64de3908f87d",
+    "efc3faff7a75909b87aa86bfab6675af4bf5f06de332c50dc7c682f093a620b1",
+    "f09c231ab60ebb69709cc3b58dd5bcba4186d64ece014ebc4fbeb3e3c6a6e150",
+    "f4eae72faeeb5b6ce3e8cef5d0bd9d46713c5c2951707b2bceae68b0c5ad0d01",
+    "f6dac9278311dc27f70309ea1bc083c71bbbd38c43e1008aad77d0a4f57d7f94",
+    "f7571f508540292e4304105ebb6a51b60c9706c0753e460ce8de1d4f479904cc",
+    "fa6caa0a16b26cc1d43832e5580fa96ddcac4e634dc90042ea6d3ed435898801",
+    "fc247ff8acda88b4740e3a012e0741f50cd4d9a9c95161189735188f972b1f44"
+  ]
+}
