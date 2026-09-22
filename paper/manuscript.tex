@@ -251,7 +251,7 @@ signed local descent and four factor sectors
  & imported, restated, and independently checked\\
 sectors $[1,6]$, $[2,5]$, $[3,4]$
  & eliminated by Dahmen--Siksek
- & reconstructed with certificates; two local refinements are added\\
+ & reconstructed with certificates; an intrinsic formal-group refinement is added\\
 irreducible sector $[7]$
  & reduced by Putz to seven explicit fields
  & the seven-field list is imported and authenticated\\
@@ -777,7 +777,7 @@ The torsion generator is killed by $2240$, so
                             2240J_2(k)\subset G[2].
 \end{equation}
 
-\subsection{The twelve local classes}
+\subsection{The twelve local classes}\label{subsec:twelve-local}
 
 For each $P_i$, exact pullback calculations prove
 \begin{equation}\label{eq:local-pullback}
@@ -1345,6 +1345,15 @@ are made only by certified units or with their exact loss of precision
 recorded.  Simple-root conclusions are accompanied by a nonzero reduced
 Jacobian determinant.  Singular classes are subdivided or normalized until
 the stated conclusion follows.
+For the depth-two residue trees of Section~\ref{subsec:twelve-local}, the
+effective precision certificate is the independent exact checker
+\path{audit/work/v3_audit/section7_independent_local.py} (prior-evidence
+job \texttt{section7\_precision\_bounds}), which recomputes all ten trees
+with explicit visibility checks at every rejected node; the generic
+precision bound that the original helper
+\path{verify_section7_formal_group_lemma_7_5_v2.py} assigns to
+conjugate-branch coordinates is not relied upon, and that helper is
+unchanged in the present companion.
 
 \subsection{Software and trust boundary}
 
@@ -1447,8 +1456,8 @@ of no executed calculation) and regenerates the manifests, indices,
 ledgers and certificates that recorded their digests; ten verifiers
 that certified their own narrative report as an artifact no longer do
 so, and every pinned manifest row count is adjusted by the
-corresponding removal.  No program logic, exact input, or certified
-value is changed.  The file \path{RELEASE_DELTA_2026-09-23.json} lists
+corresponding removal.  No mathematical acceptance predicate, exact
+arithmetic input, or certified mathematical value is changed.  The file \path{RELEASE_DELTA_2026-09-23.json} lists
 every removed document, every edited verifier and record, and every
 regenerated file.  The current paper and its small arXiv source
 archive are separate assets; the earlier manuscript draft inside the

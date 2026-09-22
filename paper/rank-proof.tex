@@ -139,16 +139,26 @@ $F/T$ is ramified at one finite and three real places with unit
 Hilbert-symbol rank $3$, and $N/F$ is ramified at four primes with unit
 symbol rank $3$; the ambiguous-class formula gives $h(F)$ and then
 $h(N)$ odd.
+\begingroup\raggedright
 The steps are the prior-evidence jobs
 \texttt{E\_class\_one}, \texttt{T21\_prime\_principality},
 \texttt{T21\_norm\_export}, \texttt{T21\_directed\_Arb\_bound},
 \texttt{F\_odd\_class}, \texttt{pair\_ambiguous},
 \texttt{J27\_images}, \texttt{J27\_chain}, \texttt{J27\_terminal},
 \texttt{S4\_integral\_relation} and \texttt{class\_field\_bindings} of
-the companion, with the acceptance contract in
-\path{results/2026-08-26_l2_relative_s4_class_gate} and the
-discriminant certificate in
-\path{results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1}.
+the companion.  Under \path{evidence/v3/repository/results/}, the
+relevant runs are:
+\begin{itemize}\small
+\item \path{2026-08-26_l2_relative_s4_class_gate}: the acceptance
+contract, whose initial status was \texttt{NO\_GO};
+\item \path{2026-08-26_t_odd_odlyzko_exact_local_certificate_v1}: the
+discriminant certificate;
+\item \path{2026-08-26_t_odd_odlyzko_downstream_implication_replay_v1}:
+the completed conditions of the contract
+(\path{summaries/T_ODD_DOWNSTREAM_IMPLICATION_REPLAY_V1.md},
+\path{certificates/downstream_implication_decision_v1.json}).
+\end{itemize}
+\endgroup
 \end{proof}
 The $38$ finite primes of $L$ above $S$ are principal, and the unit calculation
 gives $28$ independent ordinary-unit squareclasses, including $-1$.

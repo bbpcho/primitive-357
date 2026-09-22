@@ -8,9 +8,17 @@ inventory that listed a removed document is regenerated, and every file whose
 digest changed as a result has its new digest propagated wherever the old one
 was pinned, to a fixed point.  Documents that any script executed by the
 declared suite names, and every document without the working vocabulary, stay
-public.  The result is a complete logical tree whose declared suite can be
-replayed from public inputs alone; the recorded replay of V2 no longer applies
-and a fresh replay must be recorded.
+public.
+
+What this changes beyond the removed documents, all listed in the delta file:
+certificate and ledger METADATA is regenerated (pinned digests, pinned
+manifest row counts adjusted by the exact delta of each manifest, and the
+report-artifact fields that named a removed report), and the ten verifiers
+that certified their own narrative report as an artifact have those checks
+removed.  No mathematical acceptance predicate, exact arithmetic input or
+certified mathematical value is changed.  The result is a complete logical
+tree whose declared suite can be replayed from public inputs alone; the
+recorded replay of V2 no longer applies and a fresh replay must be recorded.
 
 Usage: python3 build_v4_companion.py V2_ROOT OUT_DIR [--exec-analysis JSON]
 """
