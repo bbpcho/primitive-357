@@ -54,7 +54,7 @@
        $x^3+y^5=z^7$\\[3mm]
        \large A computer-assisted proof}
 \author{Peter Chocian\\[1mm]\small Independent researcher}
-\date{22 September 2026}
+\date{23 September 2026}
 
 \begin{document}
 \maketitle
@@ -78,8 +78,8 @@ its rational-parameter locus consists only of five points above the branch
 values.  For the
 exceptional field we combine the modularity and conductor results of
 Pacetti--Villagra Torcomian with level lowering over $\Q(\sqrt5)$ and a
-finite Hecke comparison at $29$.  We also reconstruct the three reducible-sector arguments of Dahmen--Siksek as independently replayable calculations, adding
-a database-free identification of the quadratic field and an intrinsic
+finite Hecke comparison at $29$.  We also reconstruct the three reducible-sector arguments of Dahmen--Siksek as independently replayable calculations, including
+their database-free identification of the quadratic field, and add an intrinsic
 formal-group treatment at the ramified prime.  The paper labels every major
 step as a literature input, reconstructed input, or new argument.  All
 project-specific finite calculations are supplied as exact certificates,
@@ -199,9 +199,11 @@ exceptional field.
 
 \item We reconstruct the reducible-sector arguments of Dahmen--Siksek in an exact
 certificate framework.  This is not presented as a new elimination of those
-sectors.  It provides an independent route through the finite arithmetic and
-adds two genuine refinements: the quadratic factor is identified from its
-intrinsic local labels without a field database, and the ramified $7$-adic
+sectors.  It provides an independent route through the finite arithmetic.  The
+identification of the quadratic factor from its intrinsic local labels,
+without a field database, is Dahmen--Siksek's own argument
+\cite[Proposition~4.2]{DahmenSiksek}, which we reconstruct as a certified
+calculation; the one genuine refinement is that the ramified $7$-adic
 step is carried out inside the formal neighbourhood of the given integral
 Jacobian model.
 
@@ -489,12 +491,15 @@ The reduction to the fibre product and its six rational points is
 Dahmen--Siksek, Proposition~5.1 and Lemma~5.2
 \cite[Section~5]{DahmenSiksek}.  We include the construction because it is
 the complete bridge from a quadratic root to the final fifth-power test.  The
-database-free recovery of $\Q(\sqrt{-35})$ from its local labels is the
-additional refinement used here.
+database-free recovery of $\Q(\sqrt{-35})$ from its local labels is also
+Dahmen--Siksek's, Proposition~4.2 of their paper (imaginary, unramified
+outside $\{3,5,7\}$, inert at $2$, ramified at $7$); we reconstruct it
+here as a certified calculation, and an earlier draft's description of
+it as a new refinement was an error.
 
-Suppose that $A_\eta$ has a quadratic direct factor $L$.  Its real
-signature, ramification, and dyadic labels identify it without a field
-database.
+Suppose that $A_\eta$ has a quadratic direct factor $L$.  As in
+\cite[Proposition~4.2]{DahmenSiksek}, its real signature, ramification,
+and dyadic labels identify it without a field database.
 
 Since $f_\eta$ has exactly one real root, $L$ is imaginary.  At every prime
 outside $\{3,5,7\}$, the scaled local models are separable and every direct
@@ -669,7 +674,8 @@ We use the Mordell--Weil group determination of
 For reproducibility, we also give a direct finite-field certificate for the
 remaining $2$-saturation in this statement.  Put
 $A=J_2(k)$, $H=\langle D_0,D_1,D_2,D_3\rangle$, and
-$H_0=\langle D_0,D_1,D_2,D'_3\rangle$.  The rational and twisted
+$H_0=\langle D_0,D_1,D_2,D'_3\rangle$, where $D'_3$ is the class
+introduced in the proof of \cite[Lemma~7.3]{DahmenSiksek}.  The rational and twisted
 Mordell--Weil computations used in the cited lemma give
 $\rank A=3$; good reduction at $11$ and $13$, together with the displayed
 order of $D_0$, gives $A_{\rm tors}=\langle D_0\rangle\simeq\Z/10\Z$.
@@ -1049,7 +1055,8 @@ representation of the weight-two realization of their plus motive at $t_0$.  The
 method at the small exponent $p=7$ rests on the following precise inputs,
 not on the headline large-exponent theorem of \cite{PVT}.
 Theorem~2.4(1) of \cite{PVT} states that for $r=3$ and $q\geq5$ the plus
-motive is modular for every rational specialization.  Its determinant is
+motive is modular for every nonzero rational specialization; the
+specializations used below are nonzero.  Its determinant is
 the mod-$7$ cyclotomic character (equivalently, the compatible system has
 trivial Nebentypus), and Theorem~2.1(3)--(4) gives the needed ramification
 control and finiteness at every prime above $7$.  Here $7$ is inert and
@@ -1356,10 +1363,12 @@ revising the manuscript.  OpenAI ChatGPT also supported the research and
 writing.  Anthropic Claude acted as an independent auditor throughout:
 it reproduced the finite data from published inputs, reviewed every
 draft, and checked the numbering and content of the cited results
-against their sources.  Its findings led to the database-free
-identification of $\Q(\sqrt{-35})$, to the model-intrinsic formal-group
-argument at the prime above $7$, and to the scope statement for
-solutions with a unit coordinate in Section~1; it supplied the
+against their sources.  Its findings led to the model-intrinsic formal-group
+argument at the prime above $7$ and to the scope statement for
+solutions with a unit coordinate in Section~1, and it reconstructed
+Dahmen--Siksek's database-free identification of $\Q(\sqrt{-35})$ as a
+certified calculation (an earlier draft wrongly credited that
+identification as new; the error was found in pre-submission review); it supplied the
 characterization of $\Phi$ and the derivation of the ramification
 statement in Section~\ref{sec:descent}; it independently verified the
 bitangent code data used in Appendix~\ref{app:rank-proof} (the $315$
@@ -1390,31 +1399,63 @@ The programs, exact inputs, certificates and verification records
 are available from the repository
 \href{https://github.com/bbpcho/primitive-357}{\texttt{bbpcho/primitive-357}}.
 The computational companion is
-\path{PRIMITIVE_357_REPLAY_COMPANION_2026-09-22_V3.zip}
-(307317706 bytes). Its public release tag is
+\path{PRIMITIVE_357_REPLAY_COMPANION_2026-09-23_V4.zip}
+(298483791 bytes). Its public release tag is
 \begin{center}
-\href{https://github.com/bbpcho/primitive-357/releases/tag/replay-companion-2026-09-22.1}{\texttt{replay-companion-2026-09-22.1}}.
+\href{https://github.com/bbpcho/primitive-357/releases/tag/replay-companion-2026-09-23.1}{\texttt{replay-companion-2026-09-23.1}}.
 \end{center}
 Its SHA-256 digest is
 \begin{quote}\small\ttfamily
-8efa13bdfabb0e7a48bf63f4789e44ce2cd9bac40edb234fdc95f7fecf2bea8c
+ecc39d2944092fc2efbfdd17ffe9861e6c1ca68247b06af80bd7bd4bda166c37
 \end{quote}
-It supersedes the replayed distribution with tag
-\texttt{replay-companion-2026-09-15.2} and the two withdrawn archives
-with historical tags
+with distribution manifest \texttt{c376222d\ldots} and logical input
+manifest
+\begin{quote}\small\ttfamily
+91a2bb027747b6663b5e075d31001e8ee6d12eec3025dd53f86818afffd2ef5d
+\end{quote}
+($2056$ logical files, $74$ separately acquired public inputs,
+dependency lock \texttt{478111f4\ldots}).
+It supersedes the archive with tag \texttt{replay-companion-2026-09-22.1},
+which withheld the author's internal reports as author-held inputs and
+therefore could not be replayed from public material, the replayed
+distribution with tag \texttt{replay-companion-2026-09-15.2}, and the
+two withdrawn archives with historical tags
 \begin{center}\small
 \texttt{verified-2026-09-14.1}\\
 \texttt{first-submission-2026-09-15.1}.
 \end{center}
-The only difference from the replayed distribution is that the
-author's internal working reports are no longer redistributed: they
-are author-held inputs of the dependency lock, with unchanged logical
-paths, byte counts and SHA-256 digests, so the logical input manifest
-and the materialized replay tree are byte-for-byte those of the
-recorded replay; the file \path{RELEASE_DELTA_2026-09-22.json} lists
-every such document.  The current paper and its small
-arXiv source archive are separate assets; earlier manuscript copies
-inside the computational records are retained as provenance.
+Relative to the replayed distribution, the present archive removes
+$72$ exploratory working reports (narrative documents that are inputs
+of no executed calculation) and regenerates the manifests, indices,
+ledgers and certificates that recorded their digests; ten verifiers
+that certified their own narrative report as an artifact no longer do
+so, and every pinned manifest row count is adjusted by the
+corresponding removal.  No program logic, exact input, or certified
+value is changed.  The file \path{RELEASE_DELTA_2026-09-23.json} lists
+every removed document, every edited verifier and record, and every
+regenerated file.  The current paper and its small arXiv source
+archive are separate assets; the earlier manuscript draft inside the
+computational records is retained as provenance.
+
+Because its expanded tree differs from the recorded one, the complete
+declared suite was rerun from the public archive and its $74$ public
+inputs on an independent machine (Ubuntu~24.04, aarch64; conda-forge
+SageMath~10.9 with Python~3.12; PARI/GP~2.15.4 from the Ubuntu
+package), with network access blocked and no access to the author's
+workspaces.  The result is
+\texttt{PASS\_FRESH\_EXTERNALIZED\_COMPLETE\_REPLAY}: all $13$ sector and
+interface records, all $65$ prior jobs, and all $16$ rank-local checks
+passed, in $2562$ seconds on 22 September 2026, with integrated result
+digest \texttt{e1941808\ldots} and independent envelope
+\texttt{6ad3f186\ldots}.  The record archive
+\path{PRIMITIVE_357_V4_REPLAY_RECORD_SPARK_2026-09-22.zip}
+(1082797043 bytes, SHA-256 \texttt{dfa88210\ldots}) is a release asset
+alongside the companion.  Two runtime requirements were observed and
+are documented in the companion: the exact-comparison job
+\texttt{reconstruct\_raw66} requires PARI~2.15.4 (version~2.17
+returns equivalent but not byte-identical representatives, and the
+gate fails by design), and the replay must be launched with standard
+input detached from a terminal.
 
 The companion stores repeated evidence once and reconstructs the exact
 logical input layout for replay. Its explicit dependency lock gives the
@@ -1436,17 +1477,15 @@ The public integrity check, run from the extracted companion root, is
 It verifies the exact public file set and logical input mapping.
 The separate script \path{scripts/replay_companion.py}, supplied with
 explicit software and input paths, runs the full declared suite from
-new output directories. The recorded replay was run from a clean
-extraction of the replayed distribution with network access and access
-to earlier proof workspaces blocked: all $13$ sector and interface
-records, all $65$ prior jobs, and all $16$ rank-local checks passed.
-The latter consume five freshly generated inputs. The expanded logical
-inputs and separately acquired private inputs are authenticated before
-and after execution, and the present distribution materializes the
-identical expanded tree.
+new output directories. The recorded replay of 15 September was run from a clean
+extraction of the replayed distribution under the same isolation, on
+macOS with the recorded SageMath and PARI, with the same outcome; the
+rank-local checks consume five freshly generated inputs.  The expanded
+logical inputs and separately acquired inputs are authenticated before
+and after execution.
 The inherited internal identifier \texttt{verified-2026-09-14.1} is
-retained only for verifier compatibility; the input manifest was newly
-computed for the replayed distribution and is unchanged here.
+retained only for verifier compatibility; the input manifest was
+recomputed for the present distribution.
 
 The companion guide gives acquisition, reconstruction and replay
 commands, runtime requirements, dependency indexes, successful logs and
@@ -1471,8 +1510,8 @@ Proposition~\ref{prop:rational-sector}
   & Dahmen--Siksek; reconstructed
   & rational-factor composition and its Mordell--Weil, sieve, and local packages\\
 Proposition~\ref{prop:quadratic-sector}
-  & Dahmen--Siksek; new intrinsic routing
-  & database-free quadratic router and quadratic-factor reconstruction\\
+  & Dahmen--Siksek; reconstructed
+  & database-free quadratic router (Dahmen--Siksek, Proposition~4.2) and quadratic-factor reconstruction\\
 Proposition~\ref{prop:quartic-sector}
   & Dahmen--Siksek; new formal-group certification
   & quartic router, Mordell--Weil basis, sieve, and intrinsic formal-group packages\\
@@ -1903,6 +1942,13 @@ Cambridge University Press, 1996.
 N.~Bruin, B.~Poonen, and M.~Stoll,
 \emph{Generalized explicit descent and its application to curves of genus
 $3$}, Forum Math. Sigma \textbf{4} (2016), e6.
+
+\bibitem{BrueggemanDoud}
+S.~Brueggeman and D.~Doud,
+\emph{Local corrections of discriminant bounds and small degree extensions
+of quadratic base fields},
+Int. J. Number Theory \textbf{4} (2008), no.~3, 349--361;
+author manuscript \url{https://mathdept.byu.edu/~doud/Papers/Local.pdf}.
 
 \bibitem{Siksek}
 S.~Siksek,

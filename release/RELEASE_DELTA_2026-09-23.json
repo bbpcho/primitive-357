@@ -1,0 +1,565 @@
+{
+  "schema": "primitive357_release_delta_v2",
+  "date": "2026-09-23",
+  "from_release_tag": "replay-companion-2026-09-15.2",
+  "to_release_tag": "replay-companion-2026-09-23.1",
+  "statement": "The exploratory working reports listed under removed_documents are no longer part of the logical replay tree. Every manifest, index and inventory that listed them was regenerated, and every file whose digest changed had its new digest propagated wherever the old one was pinned. Documents named by scripts the declared suite executes, and every document without the working vocabulary, remain public. The recorded replay of the previous distribution does not apply to this tree; a fresh replay from public inputs is required and, once recorded, replaces records/completed-replay.",
+  "removed_documents": [
+    {
+      "path": "evidence/v3/repository/results/2026-09-07_five_place_source_preimage_direct_verification_v1/summaries/UNCONDITIONAL_TRUE_2_SELMER_AND_RANK4_THEOREM_V1.md",
+      "bytes": 5716,
+      "sha256": "55d4bde62521e23291ca7fc5aa66e54e8af950c7566a999b9cdb50bdd48f9c75"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_even_irreducible_cm_projector_elimination_v1/summaries/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1.pdf",
+      "bytes": 179754,
+      "sha256": "c7958e99e36bbe2c58058d35487519994fdaf0cace62375f6eff3e843949a72c"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_even_irreducible_cm_projector_elimination_v1/summaries/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1.tex",
+      "bytes": 6722,
+      "sha256": "701e856d250340e33b552ddda68c511a167833ba3bd5df0e4ab96291a2f9ee16"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/summaries/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1.pdf",
+      "bytes": 133882,
+      "sha256": "74ae1ef7b5005790aa8f748a950edfcee9762a739aedc37c99eaa5c5729842d1"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/summaries/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1.tex",
+      "bytes": 4277,
+      "sha256": "aba1648edbc8fc18dd4579e30d1b55d4d08e7e24f510333777dda5b2c46827cf"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/summaries/HILBERT_HECKE_PACKET_REPLAY_AUDIT_V1.md",
+      "bytes": 4338,
+      "sha256": "8ce148d5157ef99b1101ae3a9eec3048a05cf58f315224bf5709a97cc3864363"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/summaries/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1.pdf",
+      "bytes": 219903,
+      "sha256": "5056fa7901a7091ed292fc45963b18162420e3b321c1445f6ade0bfc872aa85f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/summaries/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1.tex",
+      "bytes": 12502,
+      "sha256": "c18e665b93f45c1f31e86dde8bf624bbd6254d310988dd7f47d63d7aa2c40730"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/summaries/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1.pdf",
+      "bytes": 168281,
+      "sha256": "a0aee051a7e3db0a5040270f0bdf192955f88e3b284868fc4f2a6af260585a59"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/summaries/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1.tex",
+      "bytes": 5120,
+      "sha256": "17313dd709de2b1a2efdb6425ddfde00d6c7f81deb7a38f9005e792537f20178"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.pdf",
+      "bytes": 196051,
+      "sha256": "b68153c69d282410ec906229f9997993f3f022fca2453088d9f79347888e0ce9"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/summaries/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2.tex",
+      "bytes": 7732,
+      "sha256": "7eb295b462e2870eba3f1cc63aedb1b88c01a0e15bf48e9754bf1b888f784080"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/summaries/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1.pdf",
+      "bytes": 182757,
+      "sha256": "fa6caa0a16b26cc1d43832e5580fa96ddcac4e634dc90042ea6d3ed435898801"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/summaries/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1.tex",
+      "bytes": 7419,
+      "sha256": "2c28db30030b7019671bbd07903d9c4405cb178706e379cee02ad10ac3f3cea4"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/summaries/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1.pdf",
+      "bytes": 199252,
+      "sha256": "0cfec09728a4b49e548cebba62aee6c4760dbc4b401015d7630d600c0f9e4825"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/summaries/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1.tex",
+      "bytes": 9807,
+      "sha256": "c3727d54cbc056f043dcc6b1797b5f249eb10a6d50f641a0cac3015bf700dbea"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/summaries/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1.pdf",
+      "bytes": 180145,
+      "sha256": "adf44c7eeff2735381c5cf5ffa52059cb005de462f7b0aa283a7b1f41c25a686"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/summaries/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1.tex",
+      "bytes": 7966,
+      "sha256": "1197ed2484fc4e8439c446b85a35aa7aa7f28f55b88ef698d1814d0386472ddc"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/summaries/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1.pdf",
+      "bytes": 204203,
+      "sha256": "646c7549bade7ea53178ccf25f9e6d18a599b5e0330038a19f549cfcd1d98007"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/summaries/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1.tex",
+      "bytes": 8292,
+      "sha256": "bd669303e7f749aac38a47ce22665c750bb842bd565a1c05e782fef8a1701a83"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/summaries/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1.pdf",
+      "bytes": 173031,
+      "sha256": "4e083a8c38dc714b372bec7fe7f89281131b8d69c9e4a80b8301bb798e007c9d"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/summaries/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1.tex",
+      "bytes": 6661,
+      "sha256": "88f31ab51d64af0d8b01b8352784653a9dc7fa442fe7ea24ddbd53b7e1868c46"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/summaries/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1.pdf",
+      "bytes": 150911,
+      "sha256": "5d523aff1802c8aedf92981fdb38e9eaa215162ca83bd65f15ba74cd379d306f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/summaries/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1.tex",
+      "bytes": 4956,
+      "sha256": "1ea943fc7a355411ce1720657d8e63faab49366278138d8d7dbe53964231687d"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_reducible_mod7_static_state_projector_v1/summaries/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1.pdf",
+      "bytes": 187329,
+      "sha256": "34472fbf731b57e85f51aa760becd530b48f2be57e3626ff792e5d062eeec319"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_reducible_mod7_static_state_projector_v1/summaries/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1.tex",
+      "bytes": 8055,
+      "sha256": "b6d59f251d4bf8f559fa198bb0f84002227661b65bb47ff39aee5e1cd5596458"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/summaries/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1.pdf",
+      "bytes": 120168,
+      "sha256": "435e63e3eb6b4c80f91b0e25d6d9d366093188388aceef77c2eb047528157ff0"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/summaries/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1.tex",
+      "bytes": 3155,
+      "sha256": "e82731670b290cb6a220e388c156e1699c25bfe1bf6fe3bb622ebabd44d503d0"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1.pdf",
+      "bytes": 243944,
+      "sha256": "c44939e4bc045277754706fb36151eb374147a175ec300e70d5de79f492e119f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1.tex",
+      "bytes": 19619,
+      "sha256": "4d70997b5368c6a400c897f9303529c5c07e26804eab2a59b725594fbbf0a1d9"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7.pdf",
+      "bytes": 245469,
+      "sha256": "2f915ea9334f5332d718caec3cfd757fe203805b0f71ee0ba77631ca1f0f432a"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7.tex",
+      "bytes": 22128,
+      "sha256": "ca671e9c04cfb74ad839bdade714de928ed5e6906865d517bc307aff600da99f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-08_static_projector_interface_stress_audit_v1/summaries/STATIC_PROJECTOR_INTERFACE_STRESS_AUDIT_V1.md",
+      "bytes": 4144,
+      "sha256": "169e3b219e60ad75ba20f93d9312a3ba8582ef21406ccad89c5aadf2c5e14924"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/summaries/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2.pdf",
+      "bytes": 206022,
+      "sha256": "b22f0e7b669dba3e362a6f3ac06d5a8ef1b8b9e2999477aab6e05adb3d363ffb"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/summaries/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2.tex",
+      "bytes": 8965,
+      "sha256": "b091d873c0454be66912fcfc75c22a5f5194a9143ea5236dfa024a1451de7903"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/summaries/NUMBERS_WITHOUT_TIME_FINITE_STATE_PROJECTOR_INVARIANT_V4.pdf",
+      "bytes": 198031,
+      "sha256": "d3ada1c711d924378566997d6c4b269dcace765005327f2a2603411ea33adc6b"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/summaries/NUMBERS_WITHOUT_TIME_FINITE_STATE_PROJECTOR_INVARIANT_V4.tex",
+      "bytes": 12099,
+      "sha256": "159d1b27317b039408ea1993a9ba40465177362d29372babd46d1cbaac94fea3"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/summaries/NUMBERS_WITHOUT_TIME_HUNTER_STATE_SPACE_REPAIR_V3.pdf",
+      "bytes": 181265,
+      "sha256": "da99bd7ef1b09dcd8dc2ab11fcd12f6c73b744af812aaf91284d9a4e77018f62"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/summaries/NUMBERS_WITHOUT_TIME_HUNTER_STATE_SPACE_REPAIR_V3.tex",
+      "bytes": 11603,
+      "sha256": "b0fc895d83b7168bf5f4e655ab26fe5fbab9da603605105f2321efdb4bc13161"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/summaries/NUMBERS_WITHOUT_TIME_LOCAL_ALGEBRA_COVERING_V6.pdf",
+      "bytes": 199417,
+      "sha256": "12e08b756b6772480184771d1382f001b99cc5b7f7ac45ceb8c9320f0a58ed18"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/summaries/NUMBERS_WITHOUT_TIME_LOCAL_ALGEBRA_COVERING_V6.tex",
+      "bytes": 8915,
+      "sha256": "038abab5c8ff027f9aebf8afe997e781d91b8656a3bb950ab0d3d56488bd9f5e"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/summaries/NUMBERS_WITHOUT_TIME_LOCAL_TSCHIRNHAUS_SUPPORT_V5.pdf",
+      "bytes": 182774,
+      "sha256": "b3ac2d1782028d9702412a00b278233b270a5426667d37fc8733ccd286a38471"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/summaries/NUMBERS_WITHOUT_TIME_LOCAL_TSCHIRNHAUS_SUPPORT_V5.tex",
+      "bytes": 9080,
+      "sha256": "73dee0ead3a269d54eeee28a8a38a0c252d2bf3b67b307e8ac577fe4bb5a2bd7"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/summaries/NUMBERS_WITHOUT_TIME_TARGETED_HUNTER_SPECTRAL_BOUND_V7.pdf",
+      "bytes": 175690,
+      "sha256": "2dd87a3094424f09e2271ceedf023de530699d4f85e5f71ac3c48ad4026b2672"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/summaries/NUMBERS_WITHOUT_TIME_TARGETED_HUNTER_SPECTRAL_BOUND_V7.tex",
+      "bytes": 6873,
+      "sha256": "c03079c79a408fd4810fd4368982deee7f329b79bed27d818fabf873a0fbc6ec"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/summaries/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1.pdf",
+      "bytes": 233421,
+      "sha256": "d1a5c80a66fcf1ff6a1ee179d9c34010c06aaf32006fb2c05deb87e8b50d613b"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/summaries/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1.tex",
+      "bytes": 18945,
+      "sha256": "79745d0c34a6d9f52d883227608693457db7885db21b26b010787c74a9857e09"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/summaries/QUADRATIC_FACTOR_ROUTER_2_5_V1.pdf",
+      "bytes": 211636,
+      "sha256": "d4e748504565378ef5bddb74d375479e453578ab3acef06f7bc2ba127af34adc"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/summaries/QUADRATIC_FACTOR_ROUTER_2_5_V1.tex",
+      "bytes": 14927,
+      "sha256": "17d5fc96b24fa712747d42389347fb80f92a8fd2dfd90f06d2e66bf98ae9fc61"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.pdf",
+      "bytes": 227781,
+      "sha256": "dac4b43d83152372fcde49dd21dd44062027b7949578148a324f08fc87fb9b3e"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_quartic_factor_router_3_4_v1/summaries/QUARTIC_FACTOR_ROUTER_3_4_V1.tex",
+      "bytes": 17537,
+      "sha256": "ea7196f6b994ed824c760bd68a5f0214a56cde14d718c36f47634b8895aea636"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/summaries/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_REPORT_V1.pdf",
+      "bytes": 292363,
+      "sha256": "5117c9e9b5ae7c850dd4e94b851ae5ced30cdbf9178706bc359f72e90aa56f04"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/summaries/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_REPORT_V1.tex",
+      "bytes": 13209,
+      "sha256": "85fee7806e63e824751b28734499ed643ba8d3fd0b6689093f8d2ad5c1fa2a3d"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1/summaries/QUANTUM_PROJECTOR_METHOD_AND_RATIONAL_FACTOR_MW_BASIS_REPORT_V1.pdf",
+      "bytes": 287816,
+      "sha256": "86e6a29edb8de0a671a777702a12b2ff26a53278bf94177c80416c0d3f57b31a"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1/summaries/QUANTUM_PROJECTOR_METHOD_AND_RATIONAL_FACTOR_MW_BASIS_REPORT_V1.tex",
+      "bytes": 48778,
+      "sha256": "4755c0506db302e4b6474c9a8b04315f893658e66e3b1aee2d13a45457f26d48"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1/summaries/RATIONAL_FACTOR_DEEP_PROJECTOR_REPORT_V1.pdf",
+      "bytes": 281867,
+      "sha256": "1de9823819bc0075ebcf2d8169f9853b37a45261afad3fb44e38af2167521193"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1/summaries/RATIONAL_FACTOR_DEEP_PROJECTOR_REPORT_V1.tex",
+      "bytes": 26251,
+      "sha256": "a83b5369acd7b935b2ec5131ab9ee1d19b307762d3e391ed1981370cf55bf6fa"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_rational_t_projector_stress_audit_v1/summaries/RATIONAL_T_PROJECTOR_STRESS_AUDIT_V1.md",
+      "bytes": 7900,
+      "sha256": "2f2a3561797adc841e0f158da816164ef56d3554716721ac60f51022b7e81566"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10.pdf",
+      "bytes": 235706,
+      "sha256": "27810d93258f2c376427ca61d030e9f17c36f47854be251150f4eadeb7290984"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10.tex",
+      "bytes": 4462,
+      "sha256": "18639a3d107d26f304108ffa0a300960b133473b4c02be0d044173930498ad33"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13.pdf",
+      "bytes": 170993,
+      "sha256": "ae4b385092748f64469226e3acd7b7e0001c53a8f381c13cd33e5717d807865c"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13.tex",
+      "bytes": 8679,
+      "sha256": "25e45c1ddc9bbfd547cf151eeecffaa088992d104404d6a1795a203a47b9a536"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14.pdf",
+      "bytes": 182858,
+      "sha256": "e5f9a4f687c3850f3ab94c91a3a0f30d33a7be069403c9492953e6a2163334d7"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14.tex",
+      "bytes": 10902,
+      "sha256": "0aa4e55949fee1d408f86832f9a7adf63f7fd99b0b680ad9acce048be752c636"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15.pdf",
+      "bytes": 162889,
+      "sha256": "845ae7d0bf7e58f78fecd33004ea6345ef17d3224660d2522a8b448a473fed79"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15.tex",
+      "bytes": 4884,
+      "sha256": "eb819a7fd7798591df43d193cd0c4d000d9c73133f15e54968fe164707173855"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8.pdf",
+      "bytes": 229086,
+      "sha256": "57cf5700d26384fc94616f58c8506a5530e47b3e6dc44aa0096b186bd868987f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8.tex",
+      "bytes": 14390,
+      "sha256": "246931aba6a5a0022738056750cf5d15a9ba52b98b987cf192b0c60021ba216c"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9.pdf",
+      "bytes": 246192,
+      "sha256": "9a0721381bc318054d95a4a7b1881167be4f5926c6f776c207aa5738b9b3ccf0"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/summaries/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9.tex",
+      "bytes": 4254,
+      "sha256": "b99125205288e1fc080267fb1756fd618f593c76dec3d5bffaab120fb84a474f"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/summaries/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1.pdf",
+      "bytes": 214560,
+      "sha256": "9d40f5424f2372592eb684f340d4851545892fc1f2d3c16cf9d43f841d54a013"
+    },
+    {
+      "path": "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/summaries/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1.tex",
+      "bytes": 9345,
+      "sha256": "13df1020492dbfec6ccff4da6ab432340073f1a8c5edcf07f24c665fd0d87e95"
+    }
+  ],
+  "retained_reports_named_by_executed_scripts": [
+    "evidence/v3/repository/beal_357_spark_handover_2026-08-20/project/beal_357_progress.tex",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.pdf",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.tex",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/summaries/PVT_PUTZ_INTERFACE_AUDIT_REPORT_V2.pdf",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/summaries/PVT_PUTZ_INTERFACE_AUDIT_REPORT_V2.tex",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.pdf",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.tex",
+    "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/summaries/SECTION7_PROPOSITION_7_1_CLOSURE_REPORT_V2.pdf",
+    "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/summaries/SECTION7_PROPOSITION_7_1_CLOSURE_REPORT_V2.tex"
+  ],
+  "retained_reports_with_working_vocabulary": [
+    "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/summaries/COMPLETE_PRIMITIVE_357_PROOF_REPORT_V3.pdf",
+    "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/summaries/COMPLETE_PRIMITIVE_357_PROOF_REPORT_V3.tex",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.pdf",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/summaries/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_REPORT_V1.tex",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.pdf",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/summaries/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2.tex"
+  ],
+  "verifiers_with_report_checks_removed": [
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/scripts/verify_signed_ds_branch_local_pattern_audit_v1.py",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/scripts/verify_static_projector_end_to_end_proof_candidate_v7.py",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/scripts/verify_putz_targeted_hunter_spectral_bound_audit_v7.py",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/scripts/verify_rational_factor_local_lemma_6_8_package.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/scripts/verify_static_projector_end_to_end_proof_candidate_v10.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/scripts/verify_static_projector_end_to_end_proof_candidate_v13.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/scripts/verify_static_projector_end_to_end_proof_candidate_v14.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/scripts/verify_static_projector_end_to_end_proof_candidate_v15.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/scripts/verify_static_projector_end_to_end_proof_candidate_v8.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/scripts/verify_static_projector_end_to_end_proof_candidate_v9.py"
+  ],
+  "records_with_report_digests_removed": [
+    "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/certificates/mixed_rational_t_signature_357_closure_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/certificates/odd_packet_cm_join_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/certificates/putz_19_field_joint_projector_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/certificates/putz_degree7_f42_projector_bridge_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/certificates/putz_hunter_corrected_enumeration_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/certificates/reducible_mod7_q41_interference_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/certificates/signed_ds_branch_local_pattern_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/certificates/static_projector_end_to_end_proof_candidate_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/certificates/static_projector_end_to_end_proof_candidate_decision_v7.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/certificates/putz_hunter_finite_state_projector_decision_v4.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/certificates/putz_hunter_local_algebra_covering_decision_v6.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/certificates/putz_hunter_local_tschirnhaus_support_decision_v5.json",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/certificates/putz_targeted_hunter_spectral_bound_decision_v7.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/certificates/static_projector_end_to_end_proof_candidate_decision_v10.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/certificates/static_projector_end_to_end_proof_candidate_decision_v13.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/certificates/static_projector_end_to_end_proof_candidate_decision_v14.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/certificates/static_projector_end_to_end_proof_candidate_decision_v15.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/certificates/static_projector_end_to_end_proof_candidate_decision_v8.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/certificates/static_projector_end_to_end_proof_candidate_decision_v9.json"
+  ],
+  "regenerated_files": [
+    "RELEASE_MANIFEST.json",
+    "audit/work/integration_prior/REQUIRED_PRIOR_EVIDENCE.json",
+    "evidence/v3/inputs/BASE_EVIDENCE_MANIFEST_INDEX_V1.json",
+    "evidence/v3/inputs/DEPENDENCY_CLOSURE_INDEX_V2.json",
+    "evidence/v3/inputs/DEPENDENCY_CLOSURE_INDEX_V3.json",
+    "evidence/v3/inputs/SECTOR_REPLAY_INDEX_V2.json",
+    "evidence/v3/inputs/SECTOR_REPLAY_INDEX_V3.json",
+    "evidence/v3/manifests/PRIMITIVE_357_DEPENDENCY_CLOSED_RELEASE_V2_SHA256SUMS.txt",
+    "evidence/v3/manifests/PRIMITIVE_357_DEPENDENCY_CLOSED_RELEASE_V3_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-07_five_place_source_preimage_direct_verification_v1/manifests/UNCONDITIONAL_TRUE_2_SELMER_AND_RANK4_THEOREM_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_even_irreducible_cm_projector_elimination_v1/manifests/EVEN_IRREDUCIBLE_CM_PROJECTOR_ELIMINATION_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_even_irreducible_p7_ordinarity_projector_v1/manifests/EVEN_IRREDUCIBLE_P7_ORDINARITY_PROJECTOR_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/certificates/hilbert_hecke_packet_replay_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/inputs/hilbert_hecke_packet_replay_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-08_hilbert_hecke_packet_replay_audit_v1/manifests/HILBERT_HECKE_PACKET_REPLAY_AUDIT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/certificates/mixed_rational_t_signature_357_closure_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/manifests/MIXED_RATIONAL_T_SIGNATURE_357_CLOSURE_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_mixed_rational_t_signature_357_closure_v1/scripts/verify_mixed_rational_t_signature_357_closure_v1.py",
+    "evidence/v3/repository/results/2026-09-08_odd_cm_boundary_case_projector_gap_v1/manifests/ODD_CM_BOUNDARY_CASE_PROJECTOR_GAP_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/certificates/odd_exceptional_splitting_cm_adversarial_crosscheck_decision_v2.json",
+    "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_adversarial_crosscheck_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_ADVERSARIAL_CROSSCHECK_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/certificates/odd_exceptional_splitting_cm_interference_decision_v2.json",
+    "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/manifests/ODD_EXCEPTIONAL_SPLITTING_CM_INTERFERENCE_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_odd_exceptional_splitting_cm_interference_v2/scripts/verify_odd_exceptional_splitting_cm_interference_v2.py",
+    "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/certificates/odd_packet_cm_join_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/manifests/ODD_PACKET_EXCEPTIONAL_INTERFERENCE_Q17_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_odd_packet_cm_join_audit_v1/scripts/verify_odd_packet_cm_join_audit_v1.py",
+    "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/inputs/odd_s2_exceptional_s7_projector_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-08_odd_s2_exceptional_s7_projector_v1/manifests/ODD_S2_EXCEPTIONAL_S7_PROJECTOR_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/certificates/putz_19_field_joint_projector_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/manifests/PUTZ_19_FIELD_JOINT_PROJECTOR_COVER_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_putz_19_field_joint_projector_exploration_v1/scripts/verify_putz_19_field_joint_projectors_v1.py",
+    "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/certificates/putz_degree7_f42_projector_bridge_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_degree7_f42_projector_bridge_audit_v1/manifests/PUTZ_DEGREE7_F42_PROJECTOR_BRIDGE_AUDIT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/certificates/putz_hunter_corrected_enumeration_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_putz_hunter_corrected_enumeration_v1/manifests/PUTZ_HUNTER_CORRECTED_ENUMERATION_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/certificates/reducible_mod7_q41_interference_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/inputs/reducible_mod7_q41_interference_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/manifests/REDUCIBLE_MOD7_Q41_EXCEPTIONAL_INTERFERENCE_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_q41_exceptional_interference_v1/scripts/verify_reducible_mod7_q41_interference_v1.py",
+    "evidence/v3/repository/results/2026-09-08_reducible_mod7_static_state_projector_v1/manifests/REDUCIBLE_MOD7_STATIC_STATE_PROJECTOR_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/certificates/signed_ds_branch_local_pattern_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/inputs/signed_ds_branch_local_pattern_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/manifests/SIGNED_DS_BRANCH_LOCAL_PATTERN_AUDIT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_signed_ds_branch_local_pattern_audit_v1/scripts/verify_signed_ds_branch_local_pattern_audit_v1.py",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/certificates/static_projector_end_to_end_proof_candidate_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/inputs/static_projector_proof_graph_v1.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v1/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/certificates/static_projector_end_to_end_proof_candidate_decision_v7.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/inputs/static_projector_proof_graph_v7.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V7_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_static_projector_end_to_end_proof_candidate_v7/scripts/verify_static_projector_end_to_end_proof_candidate_v7.py",
+    "evidence/v3/repository/results/2026-09-08_static_projector_interface_stress_audit_v1/certificates/static_projector_interface_stress_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-08_static_projector_interface_stress_audit_v1/manifests/STATIC_PROJECTOR_INTERFACE_STRESS_AUDIT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-08_static_projector_interface_stress_audit_v1/scripts/verify_static_projector_interface_stress_audit_v1.py",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/certificates/putz_hunter_closed_interval_completeness_repair_decision_v2.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/inputs/hunter_closed_interval_completeness_ledger_v2.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_closed_interval_completeness_repair_v2/manifests/PUTZ_HUNTER_CLOSED_INTERVAL_COMPLETENESS_REPAIR_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/certificates/putz_hunter_finite_state_projector_decision_v4.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/inputs/hunter_finite_state_projector_ledger_v4.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_finite_state_projector_invariant_v4/manifests/PUTZ_HUNTER_FINITE_STATE_PROJECTOR_INVARIANT_V4_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/inputs/hunter_initial_configuration_completeness_ledger_v3.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/manifests/PUTZ_HUNTER_STATIC_STATE_SPACE_COMPLETENESS_REPAIR_V3_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_initial_configuration_completeness_repair_v3/scripts/verify_putz_hunter_initial_configuration_completeness_repair_v3.py",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/certificates/putz_hunter_local_algebra_covering_decision_v6.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/inputs/putz_hunter_local_algebra_covering_ledger_v6.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/manifests/PUTZ_HUNTER_LOCAL_ALGEBRA_COVERING_V6_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_algebra_covering_v6/scripts/verify_putz_hunter_local_algebra_covering_v6.py",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/certificates/putz_hunter_local_tschirnhaus_support_decision_v5.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/inputs/local_tschirnhaus_support_ledger_v5.json",
+    "evidence/v3/repository/results/2026-09-09_putz_hunter_local_tschirnhaus_support_v5/manifests/PUTZ_HUNTER_LOCAL_TSCHIRNHAUS_SUPPORT_V5_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/certificates/putz_targeted_hunter_spectral_bound_decision_v7.json",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/inputs/putz_targeted_hunter_spectral_bound_ledger_v7.json",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/manifests/PUTZ_TARGETED_HUNTER_SPECTRAL_BOUND_AUDIT_V7_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_targeted_hunter_spectral_bound_audit_v7/scripts/verify_putz_targeted_hunter_spectral_bound_audit_v7.py",
+    "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/certificates/putz_theorem350_local_filter_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/inputs/putz_theorem350_local_filter_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/manifests/PUTZ_THEOREM350_LOCAL_FILTER_INDEPENDENT_RECONSTRUCTION_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_putz_theorem350_local_filter_independent_reconstruction_v1/scripts/verify_putz_theorem350_local_filter_v1.py",
+    "evidence/v3/repository/results/2026-09-09_quadratic_factor_2_5_reconstruction_v1/manifests/QUADRATIC_FACTOR_2_5_RECONSTRUCTION_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/certificates/QUADRATIC_FACTOR_ROUTER_2_5_CERTIFICATE_V1.json",
+    "evidence/v3/repository/results/2026-09-09_quadratic_factor_router_2_5_v1/manifests/QUADRATIC_FACTOR_ROUTER_2_5_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_quartic_factor_router_3_4_v1/manifests/QUARTIC_FACTOR_ROUTER_3_4_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/certificates/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_CERTIFICATE_V1.json",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/manifests/RATIONAL_FACTOR_LOCAL_LEMMA_6_8_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/scripts/verify_rational_factor_local_lemma_6_8.py",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_local_lemma_6_8_v1/scripts/verify_rational_factor_local_lemma_6_8_package.py",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_mw_basis_attack_v1/manifests/RATIONAL_FACTOR_MW_BASIS_CHECKPOINT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_rational_factor_static_sieve_v1/manifests/RATIONAL_FACTOR_STATIC_SIEVE_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_rational_t_projector_stress_audit_v1/certificates/rational_t_projector_stress_audit_decision_v1.json",
+    "evidence/v3/repository/results/2026-09-09_rational_t_projector_stress_audit_v1/manifests/RATIONAL_T_PROJECTOR_STRESS_AUDIT_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_rational_t_projector_stress_audit_v1/scripts/verify_rational_t_projector_stress_audit_v1.py",
+    "evidence/v3/repository/results/2026-09-09_signed_global_algebra_superselection_audit_v8/certificates/signed_global_algebra_superselection_decision_v8.json",
+    "evidence/v3/repository/results/2026-09-09_signed_global_algebra_superselection_audit_v8/inputs/signed_global_algebra_superselection_ledger_v8.json",
+    "evidence/v3/repository/results/2026-09-09_signed_global_algebra_superselection_audit_v8/manifests/SIGNED_GLOBAL_ALGEBRA_SUPERSELECTION_AUDIT_V8_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/certificates/static_projector_end_to_end_proof_candidate_decision_v10.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/inputs/static_projector_proof_graph_v10.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V10_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v10/scripts/verify_static_projector_end_to_end_proof_candidate_v10.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/certificates/static_projector_end_to_end_proof_candidate_decision_v13.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/inputs/static_projector_proof_graph_v13.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V13_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v13/scripts/verify_static_projector_end_to_end_proof_candidate_v13.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/certificates/static_projector_end_to_end_proof_candidate_decision_v14.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/inputs/static_projector_proof_graph_v14.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V14_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v14/scripts/verify_static_projector_end_to_end_proof_candidate_v14.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/certificates/static_projector_end_to_end_proof_candidate_decision_v15.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/inputs/static_projector_proof_graph_v15.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V15_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v15/scripts/verify_static_projector_end_to_end_proof_candidate_v15.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/certificates/static_projector_end_to_end_proof_candidate_decision_v8.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/inputs/static_projector_proof_graph_v8.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V8_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v8/scripts/verify_static_projector_end_to_end_proof_candidate_v8.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/certificates/static_projector_end_to_end_proof_candidate_decision_v9.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/inputs/static_projector_proof_graph_v9.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/manifests/STATIC_PROJECTOR_END_TO_END_PROOF_CANDIDATE_V9_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-09_static_projector_end_to_end_proof_candidate_v9/scripts/verify_static_projector_end_to_end_proof_candidate_v9.py",
+    "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/inputs/seven_field_q29_spectral_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-09_static_projector_seven_field_q29_compression_v1/manifests/SEVEN_FIELD_SINGLE_Q29_SPECTRAL_COMPRESSION_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/certificates/COMPLETE_PRIMITIVE_357_PROOF_CERTIFICATE_V3.json",
+    "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/inputs/complete_primitive_357_proof_graph_v3.json",
+    "evidence/v3/repository/results/2026-09-10_complete_primitive_357_proof_v3/manifests/COMPLETE_PRIMITIVE_357_PROOF_V3_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/certificates/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_CERTIFICATE_V1.json",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/inputs/irreducible_degree7_sector_dependency_ledger_v1.json",
+    "evidence/v3/repository/results/2026-09-10_irreducible_degree7_sector_closure_v1/manifests/IRREDUCIBLE_DEGREE7_SECTOR_CLOSURE_V1_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/certificates/PVT_PUTZ_INTERFACE_AUDIT_CERTIFICATE_V2.json",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/inputs/pvt_putz_interface_ledger_v2.json",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/manifests/PVT_PUTZ_INTERFACE_AUDIT_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_pvt_putz_interface_audit_v2/scripts/verify_pvt_putz_interface_v2.py",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/certificates/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_CERTIFICATE_V2.json",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/manifests/RATIONAL_FACTOR_PROPOSITION_6_1_RECONSTRUCTION_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_rational_factor_proposition_6_1_composition_v2/scripts/verify_rational_factor_proposition_6_1_checkpoint_v2.py",
+    "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/certificates/SECTION7_PROPOSITION_7_1_CLOSURE_CERTIFICATE_V2.json",
+    "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/manifests/SECTION7_PROPOSITION_7_1_CLOSURE_V2_SHA256SUMS.txt",
+    "evidence/v3/repository/results/2026-09-10_section7_proposition_7_1_closure_v2_model_intrinsic/scripts/verify_section7_proposition_7_1_closure_v2.py",
+    "verification/ARTIFACT_SELECTION.json",
+    "verification/ASSET_CONSTRUCTION.json",
+    "verification/PROOF_INPUTS_SHA256.json",
+    "verification/REPLAY_RESULT.json",
+    "verification/TESTED_RELEASE_MANIFEST.json"
+  ]
+}

@@ -1,18 +1,9 @@
-# Release notes — replay-companion-2026-09-22.1
+# Release notes — replay-companion-2026-09-23.1
 
-This release supersedes `replay-companion-2026-09-15.2` of the audit archive `bbpcho/primitive-357-proof-audit`. The computational
-companion `PRIMITIVE_357_REPLAY_COMPANION_2026-09-22_V3.zip` (307 317 706
-bytes, SHA-256 8efa13bd…) differs from the replayed distribution in one way:
-the author's internal working reports are no longer redistributed. They are
-author-held inputs of the dependency lock, with unchanged logical paths, byte
-counts and SHA-256 digests, so `RELEASE_MANIFEST.json` and the materialized
-replay tree are identical to those of the recorded fresh replay (13
-sector/interface records, 65 prior jobs, 16 rank-local checks). The file
-`RELEASE_DELTA_2026-09-22.json` lists every such document. The public
-integrity check and the public-contents scan pass; a full private
-materialization from this archive reproduces the replayed tree. The revised
-paper prints this archive's identity in Section 8.5, includes a scope
-statement for solutions with a unit coordinate, the characterization of the
-descent polynomial and the ramification derivation in Section 2, and an
-updated AI-assistance statement.
+This release supersedes `replay-companion-2026-09-22.1`. The pre-submission review found that the earlier archive's author-held inputs included documents that the replay materializer requires, so it could not be replayed from public material. The computational companion `PRIMITIVE_357_REPLAY_COMPANION_2026-09-23_V4.zip` (298 483 791 bytes, SHA-256 ecc39d29…; logical input manifest 91a2bb02…) removes 72 exploratory working reports from the logical tree instead — narrative documents that are inputs of no executed calculation — and regenerates every manifest, index, ledger and certificate that recorded their digests. Ten verifiers that certified their own narrative report as an artifact no longer do so, and every pinned manifest row count is adjusted by the removal. `RELEASE_DELTA_2026-09-23.json` lists every removed document, every edited verifier and record, and every regenerated file. No program logic, exact input or certified value changed.
 
+Because the expanded tree differs from the recorded one, the complete declared suite was rerun from this archive and its 74 separately acquired public inputs on an independent machine (Ubuntu 24.04, aarch64; conda-forge SageMath 10.9 with Python 3.12; PARI/GP 2.15.4 from the Ubuntu package; network access blocked): `PASS_FRESH_EXTERNALIZED_COMPLETE_REPLAY` — 13 sector/interface records, 65 prior jobs, 16 rank-local checks, 2562 s on 22 September 2026, integrated result digest e1941808…, independent envelope 6ad3f186…. The record is the asset `PRIMITIVE_357_V4_REPLAY_RECORD_SPARK_2026-09-22.zip` (1 082 797 043 bytes, SHA-256 dfa88210…). Two runtime requirements were observed: the exact-comparison job `reconstruct_raw66` needs PARI/GP 2.15.4, and `scripts/replay_companion.py` must be launched with standard input detached from a terminal.
+
+The revised paper corrects the attribution of the database-free identification of Q(√−35) to Dahmen–Siksek (Proposition 4.2), states the class-group input Cl(L)[2] = 0 of Appendix D as a lemma with a proof sketch and certificate locators (adding the Brueggeman–Doud reference), credits D₃′ to the proof of Dahmen–Siksek Lemma 7.3, quotes the PVT modularity statement for nonzero rational specializations, and prints this archive's identity and the fresh replay record in Section 8.5.
+
+Assets: the companion, the replay record, the arXiv source archive `PRIMITIVE_357_ARXIV_SOURCE_2026-09-23.zip`, the compiled paper `primitive_357_peter_chocian_2026_09_23.pdf`, and `RELEASE_DELTA_2026-09-23.json`; `release/SHA256SUMS.txt` in the repository lists their digests.

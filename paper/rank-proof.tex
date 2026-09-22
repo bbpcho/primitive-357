@@ -105,7 +105,51 @@ The base field $K$ has class number one.  The containing direction of
 every relevant fake Selmer class in the image of $L(S,2)$, the
 squareclasses with even valuation outside the primes above $S$.
 
-The unconditional class-group calculation gives $\operatorname{Cl}(L)[2]=0$.
+The class-group input is the following lemma; the earlier text
+compressed it into one sentence, and its full chain is recorded in the
+companion as indicated.
+
+\begin{lemma}\label{lem:cl2}
+$\operatorname{Cl}(L)[2]=0$.
+\end{lemma}
+
+\begin{proof}[Proof sketch]
+The degree-$56$ field $L$ has an $S_4$-type Galois closure over the
+degree-$14$ field $E$; write $F$ for the corresponding degree-$42$
+field, $N$ for the degree-$84$ field with $N/F$ quadratic, and $T$ for
+the degree-$21$ subfield with $F=T(\sqrt{-7})$.  The Brauer--Kuroda
+relation $\zeta_E\zeta_N=\zeta_L\zeta_F$ (all $24$ permutation-character
+identities are verified exactly) and the exact regulator comparison
+give
+\[
+ h(L)=\frac{h(E)\,h(N)}{h(F)}\cdot\frac{2^{27}}{J},
+\]
+where $J$ is the index of the unit correspondence; exact
+$2$-saturation of that correspondence gives $v_2(J)=27$.  It therefore
+suffices that $h(E)$, $h(F)$ and $h(N)$ are odd.
+$h(E)=1$ is certified unconditionally (\texttt{bnfcertify}).
+For $T$: any unramified quadratic extension of $T$ split at the real
+places has discriminant $d_T^2$ and splits every principal prime of $T$;
+the $3{,}216$ certified principal primes of norm at most $30\,000$ enter
+the unconditional local-corrected discriminant bound of
+Brueggeman--Doud \cite[Theorem~2.4(1)]{BrueggemanDoud}, evaluated with
+interval arithmetic, and the bound exceeds $\log d_T^2$ by a margin of
+$0.0407$; hence no such extension exists and $h(T)$ is odd.
+$F/T$ is ramified at one finite and three real places with unit
+Hilbert-symbol rank $3$, and $N/F$ is ramified at four primes with unit
+symbol rank $3$; the ambiguous-class formula gives $h(F)$ and then
+$h(N)$ odd.
+The steps are the prior-evidence jobs
+\texttt{E\_class\_one}, \texttt{T21\_prime\_principality},
+\texttt{T21\_norm\_export}, \texttt{T21\_directed\_Arb\_bound},
+\texttt{F\_odd\_class}, \texttt{pair\_ambiguous},
+\texttt{J27\_images}, \texttt{J27\_chain}, \texttt{J27\_terminal},
+\texttt{S4\_integral\_relation} and \texttt{class\_field\_bindings} of
+the companion, with the acceptance contract in
+\path{results/2026-08-26_l2_relative_s4_class_gate} and the
+discriminant certificate in
+\path{results/2026-08-26_t_odd_odlyzko_exact_local_certificate_v1}.
+\end{proof}
 The $38$ finite primes of $L$ above $S$ are principal, and the unit calculation
 gives $28$ independent ordinary-unit squareclasses, including $-1$.
 The exact valuation sequence for $S$-unit squareclasses shows that
