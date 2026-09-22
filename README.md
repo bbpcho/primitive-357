@@ -17,15 +17,17 @@ We prove that the generalized Fermat equation x³+y⁵=z⁷ has no solution in n
 | [`paper/manuscript.tex`](paper/manuscript.tex), [`paper/rank-proof.tex`](paper/rank-proof.tex) | The paper and its rank appendix (Appendix D). Build with pdfLaTeX; `make paper`. |
 | [`paper/manuscript.pdf`](paper/manuscript.pdf) | The compiled paper (41 pages, 22 September 2026). |
 | [`release/PRIMITIVE_357_ARXIV_SOURCE_2026-09-22.zip`](release/PRIMITIVE_357_ARXIV_SOURCE_2026-09-22.zip) | The arXiv source upload: exactly the two LaTeX files. |
-| [`release/SHA256SUMS.txt`](release/SHA256SUMS.txt) | Digests of every release asset, including the companion. |
+| [`release/SHA256SUMS.txt`](release/SHA256SUMS.txt) | Digests of every release asset, including the companion (the PDF appears under its release filename). |
 | [`release/RELEASE_DELTA_2026-09-22.json`](release/RELEASE_DELTA_2026-09-22.json) | The documents withheld from the companion (see below), with exact identities. |
 | [`release/RELEASE_NOTES.md`](release/RELEASE_NOTES.md) | Notes for the release carrying the companion. |
+| [`scripts/verify_release.sh`](scripts/verify_release.sh) | Downloads the release assets, checks every digest, extracts the companion and runs its integrity check. |
+| [`scripts/build_privatised_companion.py`](scripts/build_privatised_companion.py) | Derives this companion from the replayed 15 September distribution: the tool that turned the withheld reports into author-held inputs. |
 
 ## The computational companion
 
 Release [`replay-companion-2026-09-22.1`](https://github.com/bbpcho/primitive-357/releases/tag/replay-companion-2026-09-22.1) carries `PRIMITIVE_357_REPLAY_COMPANION_2026-09-22_V3.zip` (307 317 706 bytes, SHA-256 `8efa13bdfabb0e7a48bf63f4789e44ce2cd9bac40edb234fdc95f7fecf2bea8c`). Section 8 of the paper describes it. In brief: it stores the project's evidence once, indexed by SHA-256, together with the programs, exact inputs, certificates and the records of a fresh isolated replay of the declared suite — 13 sector/interface records, 65 prior jobs and 16 rank-local checks, the latter joined to five freshly generated inputs.
 
-Verify the download and the distribution:
+Verify the download and the distribution — `scripts/verify_release.sh` does all of the following from scratch — or by hand:
 
 ```sh
 sha256sum -c release/SHA256SUMS.txt        # after placing the assets beside it
